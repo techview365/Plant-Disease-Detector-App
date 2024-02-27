@@ -27,7 +27,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Plant Disease Detector"
+            android:text="@string/plant_disease_detector"
             android:textStyle="bold"
             android:fontFamily="sans-serif-medium"
             android:textSize="32sp"
@@ -54,7 +54,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Welcome"
+                android:text="@string/welcome"
                 android:textColor="@color/my_secondary"
                 android:textSize="32sp"
                 android:textStyle="bold"
@@ -63,7 +63,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Please register with your information"
+                android:text="@string/please_register_with_your_information"
                 android:alpha="0.7"
                 />
 
@@ -118,7 +118,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="@android:drawable/dialog_holo_light_frame"
-                android:text="Register"
+                android:text="@string/register"
                 android:textStyle="bold"
                 app:backgroundTint="#253726" />
 

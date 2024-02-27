@@ -15,20 +15,20 @@
             android:id="@+id/englishButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="English"
+            android:text="@string/english"
             android:checked="true"/>
 
         <RadioButton
             android:id="@+id/hindiButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hindi"/>
+            android:text="@string/hindi"/>
 
         <RadioButton
             android:id="@+id/marathiButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Marathi"/>
+            android:text="@string/marathi"/>
 
     </RadioGroup>
 
@@ -36,6 +36,6 @@
         android:id="@+id/buttonContinue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Continue"
+        android:text="@string/select_language"
         android:layout_marginTop="24dp"/>
 </LinearLayout>

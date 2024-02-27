@@ -58,7 +58,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Fertilizer" />
+                        android:text="@string/fertilizer" />
 
                 </LinearLayout>
 
@@ -86,7 +86,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pests and diseases" />
+                        android:text="@string/pests_and_diseases" />
 
                 </LinearLayout>
 
@@ -121,7 +121,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cultivation Tips" />
+                        android:text="@string/cultivation_tips" />
 
                 </LinearLayout>
 
@@ -149,7 +149,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pests and disease alert" />
+                        android:text="@string/pests_and_disease_alert" />
 
                 </LinearLayout>
 
@@ -176,7 +176,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="16dp"
-                android:text="Welcome, User!"
+                android:text="@string/welcome_user"
                 android:textColor="@android:color/black"
                 android:textSize="24sp" />
 
@@ -192,7 +192,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="1) Take or upload a picture."
+                    android:text="@string/_1_take_or_upload_a_picture"
                     android:textColor="@android:color/black"
                     android:textSize="18sp" />
 
@@ -201,7 +201,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="2) Get Result"
+                    android:text="@string/_2_get_result"
                     android:textColor="@android:color/black"
                     android:textSize="18sp" />
 
@@ -210,7 +210,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="3) Get diagnosis report"
+                    android:text="@string/_3_get_diagnosis_report"
                     android:textColor="@android:color/black"
                     android:textSize="18sp" />
 
@@ -230,7 +230,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:background="@android:drawable/dialog_holo_light_frame"
-            android:text="Take Plant Picture"
+            android:text="@string/take_plant_picture"
             android:textStyle="bold"
             app:backgroundTint="#253726" />
 
@@ -240,7 +240,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:background="@android:drawable/dialog_holo_light_frame"
-            android:text="Upload Plant Picture"
+            android:text="@string/upload_plant_picture"
             android:textStyle="bold"
             app:backgroundTint="#253726" />
 
@@ -291,7 +291,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/plant"
-                android:text="Crop"
+                android:text="@string/crop"
                 tools:layout_editor_absoluteX="5dp"
                 tools:layout_editor_absoluteY="675dp" />
 
@@ -299,7 +299,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/people"
-                android:text="Community"
+                android:text="@string/community"
                 tools:layout_editor_absoluteX="142dp"
                 tools:layout_editor_absoluteY="675dp" />
 
@@ -307,7 +307,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/explore"
-                android:text="Explore"
+                android:text="@string/explore"
                 tools:layout_editor_absoluteX="279dp"
                 tools:layout_editor_absoluteY="675dp" />
 
@@ -315,7 +315,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/user"
-                android:text="Profile"
+                android:text="@string/profile"
                 tools:layout_editor_absoluteX="279dp"
                 tools:layout_editor_absoluteY="675dp" />
 
