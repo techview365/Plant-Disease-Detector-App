@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">वनस्पती रोग शोध ॲप</string>
+    <string name="your_crops">तुमची पिके</string>
+    <string name="community">समुदाय</string>
+    <string name="dukaan">दुकान</string>
+    <string name="you">आपण</string>
+    <string name="click_to_register">नोंदणी करण्यासाठी क्लिक करा</string>
+    <string name="click_to_login">लॉगिन करण्यासाठी क्लिक करा</string>
+    <string name="profile_image">प्रोफाइल प्रतिमा</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="logout">बाहेर पडणे</string>
+    <string name="choose_language">भाषा निवडा</string>
+    <string name="plant_disease_detection_app">वनस्पती रोग शोध ॲप</string>
+</resources>
