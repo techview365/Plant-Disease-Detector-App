@@ -14,7 +14,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="Select Language"
+            android:text="@string/select_language"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="Get Experience in your own Language"
+            android:text="@string/get_experience_in_your_own_language"
             android:textSize="16sp" />
 
         <RadioGroup
