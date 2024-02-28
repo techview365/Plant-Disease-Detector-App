@@ -9,7 +9,7 @@
     <string name="profile_image">profile Image</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="logout">logout</string>
+    <string name="logout">Logout</string>
     <string name="choose_language">Choose Language</string>
     <string name="plant_disease_detection_app">Plant Disease Detection App</string>
     <string name="fertilizer">Fertilizer</string>
@@ -35,4 +35,7 @@
     <string name="plant_disease_detector">Plant Disease Detector</string>
     <string name="please_register_with_your_information">Please register with your information</string>
     <string name="register">Register</string>
+    <string name="get_started">Get Started</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

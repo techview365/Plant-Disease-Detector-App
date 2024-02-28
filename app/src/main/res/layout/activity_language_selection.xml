@@ -5,37 +5,60 @@
     android:layout_height="match_parent"
     android:padding="16dp">
 
-    <RadioGroup
-        android:id="@+id/radioGroupLanguages"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <RadioButton
-            android:id="@+id/englishButton"
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Select Language"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/english"
-            android:checked="true"/>
+            android:layout_marginBottom="20dp"
+            android:text="Get Experience in your own Language"
+            android:textSize="16sp" />
 
-        <RadioButton
-            android:id="@+id/hindiButton"
+        <RadioGroup
+            android:id="@+id/radioGroupLanguages"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/hindi"/>
+            android:orientation="vertical">
 
-        <RadioButton
-            android:id="@+id/marathiButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/marathi"/>
+            <RadioButton
+                android:id="@+id/englishButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/english" />
 
-    </RadioGroup>
+            <RadioButton
+                android:id="@+id/hindiButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hindi" />
 
-    <Button
-        android:id="@+id/buttonContinue"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/select_language"
-        android:layout_marginTop="24dp"/>
+            <RadioButton
+                android:id="@+id/marathiButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/marathi" />
+
+            <Button
+                android:id="@+id/buttonContinue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/get_started" />
+
+        </RadioGroup>
+    </LinearLayout>
+
 </LinearLayout>
