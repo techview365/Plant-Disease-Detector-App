@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_p8"
-    tools:context=".Explore.ExploreFragment1">
+    tools:context=".ExploreFragment">
 
 
 
@@ -44,842 +44,975 @@
                         android:text="VIEW ALL"
                         android:textColor="@color/black" />
                 </LinearLayout>
-
-
-                <HorizontalScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="0dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/imageView41"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/imageView42"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/imageView43"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/imageView44"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/imageView45"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/imageView46"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/imageView47"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-
-                    </LinearLayout>
-
-                </HorizontalScrollView>
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="16dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/tv1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Categories"
-                        android:textColor="@color/black"
-                        android:textSize="22sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/tv2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="VIEW ALL"
-                        android:textColor="@color/black" />
-                </LinearLayout>
-
-                <HorizontalScrollView
-                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="0dp">
-
+                    android:orientation="vertical">
+                    <!-- Card container -->
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
 
+                        <!-- Guide Card -->
                         <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="match_parent"
                                 android:gravity="center_horizontal"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:padding="10dp">
 
                                 <ImageView
-                                    android:id="@+id/tv448"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_apple" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
+                                    android:layout_marginTop="8dp"
+                                    android:text="Apple"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
                             </LinearLayout>
-
                         </androidx.cardview.widget.CardView>
 
+                        <!-- Guide Card -->
                         <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="match_parent"
+                                android:backgroundTint="@color/material_dynamic_neutral95"
                                 android:gravity="center_horizontal"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:padding="10dp">
 
                                 <ImageView
-                                    android:id="@+id/tv4"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_banana" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
+                                    android:layout_marginTop="8dp"
+                                    android:text="Banana"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
                             </LinearLayout>
-
                         </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/tv12"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/tv13"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/tv7"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/tv85"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/tv96"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-
                     </LinearLayout>
 
-                </HorizontalScrollView>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="16dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/tv1321"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Categories"
-                        android:textColor="@color/black"
-                        android:textSize="22sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/tv23242"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="VIEW ALL"
-                        android:textColor="@color/black" />
-                </LinearLayout>
-
-                <HorizontalScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="0dp">
-
+                    <!-- Card container -->
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
 
+                        <!-- Guide Card -->
                         <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="match_parent"
                                 android:gravity="center_horizontal"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:padding="10dp">
 
                                 <ImageView
-                                    android:id="@+id/tv4481345"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_capsiccum"
+                                    />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
+                                    android:layout_marginTop="8dp"
+                                    android:text="Capsiccum"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
                             </LinearLayout>
-
                         </androidx.cardview.widget.CardView>
 
+                        <!-- Guide Card -->
                         <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="match_parent"
                                 android:gravity="center_horizontal"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:padding="10dp">
 
                                 <ImageView
-                                    android:id="@+id/tv4555"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_cotton"
+                                    />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
+                                    android:layout_marginTop="8dp"
+                                    android:text="Cotton"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
                             </LinearLayout>
-
                         </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/tv125"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/tv135"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/tv75"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/tv844"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="250dp"
-                            android:layout_height="200dp"
-                            android:layout_margin="20dp"
-                            app:cardCornerRadius="10dp"
-                            app:cardElevation="10dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical">
-
-                                <ImageView
-                                    android:id="@+id/tv945"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="150dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/wheet"
-                                    tools:src="@drawable/wheet" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:text="Wheet"
-                                    android:textSize="20sp" />
-
-
-                            </LinearLayout>
-
-                        </androidx.cardview.widget.CardView>
-
-
                     </LinearLayout>
 
-                </HorizontalScrollView>
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_cowpea"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Cowpea"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_cumin"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Cumin"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_fenugreek"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Fenugreek"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_ginger"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Ginger"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_grape"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Grape"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_oats"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Oats"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_mango"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Mango"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_melon"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Melon"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_millet"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Millet"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_mustered"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Mustered"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_okra"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Okra"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_papaya"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Papaya"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_pearl_millet"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Pearl Millet"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_rice"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Rice"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_soybeans"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Soybeans"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_sweetpotato"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Sweet Potato"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/_termeric"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Termeric"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/bengalgram"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Bengalgram"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/blackgram"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Black Gram"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:src="@drawable/brinjal"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Brinjal"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
 
             </LinearLayout>
 
         </ScrollView>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="6dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="6dp"
-            android:layout_weight="1"
-            android:background="@drawable/grey_background"
-            android:backgroundTint="@color/material_dynamic_neutral60"
-            android:elevation="4dp"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/searchEdt"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="6dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="6dp"
                 android:layout_weight="1"
-                android:background="#00ffffff"
-                android:ems="10"
-                android:hint="Search Food..."
-                android:inputType="text"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
-                android:textSize="16sp" />
+                android:background="@drawable/grey_background"
+                android:backgroundTint="@color/material_dynamic_neutral60"
+                android:elevation="4dp"
+                android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/searchBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginEnd="6dp"
-                app:srcCompat="@drawable/search_icon" />
+                <EditText
+                    android:id="@+id/searchEdt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_weight="1"
+                    android:background="#00ffffff"
+                    android:ems="10"
+                    android:hint="Search"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/searchBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="6dp"
+                    app:srcCompat="@drawable/search_icon" />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
+
 </FrameLayout>

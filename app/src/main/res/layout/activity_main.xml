@@ -16,19 +16,19 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-16dp" />
 
-    <Button
-        android:id="@+id/button"
+    <androidx.appcompat.widget.AppCompatButton
+        style="@android:style/Widget.Button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:background="@android:drawable/bottom_bar"
-        android:backgroundTint="#244A09"
-        android:text="@string/plant_disease_detection_app"
+        android:backgroundTint="@color/dark_green"
+        android:text="AgriScan"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:strokeColor="#422B2B" />
-
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

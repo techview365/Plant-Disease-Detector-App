@@ -120,8 +120,7 @@
                 android:background="@android:drawable/dialog_holo_light_frame"
                 android:text="@string/login"
                 android:textStyle="bold"
-                app:backgroundTint="#253726"
-                 />
+                app:backgroundTint="@color/dark_green" />
 
             <TextView
                 android:textSize="20sp"

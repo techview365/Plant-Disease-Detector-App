@@ -75,14 +75,15 @@
                     android:orientation="horizontal"
                     android:padding="16dp">
 
-                    <!-- Fertilizer Card -->
+                    <!-- Guide Card -->
                     <androidx.cardview.widget.CardView
                         android:layout_width="150dp"
                         android:layout_height="100dp"
                         android:layout_margin="8dp"
                         app:cardBackgroundColor="@color/white"
                         app:cardCornerRadius="16dp"
-                        app:cardElevation="6dp">
+                        app:cardElevation="6dp"
+                        android:backgroundTint="@color/material_dynamic_neutral95">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -94,7 +95,7 @@
                             <ImageView
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
-                                android:contentDescription="@string/fertilizer"
+                                android:contentDescription="@string/guide"
                                 android:src="@drawable/guide" />
 
                             <TextView
@@ -114,7 +115,8 @@
                         android:layout_margin="8dp"
                         app:cardCornerRadius="16dp"
                         app:cardElevation="6dp"
-                        app:cardBackgroundColor="@color/white">
+                        app:cardBackgroundColor="@color/white"
+                        android:backgroundTint="@color/material_dynamic_neutral95">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -190,7 +192,8 @@
                     android:layout_height="60dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/take_plant_picture"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/dark_green" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_upload"
@@ -198,7 +201,8 @@
                     android:layout_height="60dp"
                     android:layout_marginTop="8dp"
                     android:text="@string/upload_plant_picture"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/dark_green" />
 
                 <!-- ImageView to display the selected or captured image -->
                 <ImageView
