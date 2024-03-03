@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Plant Disease Detection App</string>
+    <string name="your_crops">your crops</string>
+    <string name="community">community</string>
+    <string name="dukaan">dukaan</string>
+    <string name="you">you</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="click_to_login">click to Login</string>
+    <string name="profile_image">profile Image</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="logout">logout</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="plant_disease_detection_app">Plant Disease Detection App</string>
+    <string name="fertilizer">Fertilizer</string>
+    <string name="pests_and_diseases">Pests and diseases</string>
+    <string name="cultivation_tips">Cultivation Tips</string>
+    <string name="pests_and_disease_alert">Pests and disease alert</string>
+    <string name="welcome_user">Welcome, User!</string>
+    <string name="_1_take_or_upload_a_picture">1) Take or upload a picture.</string>
+    <string name="_2_get_result">2) Get Result</string>
+    <string name="_3_get_diagnosis_report">3) Get diagnosis report</string>
+    <string name="take_plant_picture">Take Plant Picture</string>
+    <string name="upload_plant_picture">Upload Plant Picture</string>
+    <string name="crop">Crop</string>
+    <string name="explore">Explore</string>
+    <string name="profile">Profile</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="marathi">Marathi</string>
+    <string name="select_language">Select Language</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_login_with_your_information">Please login with your information</string>
+    <string name="login">Login</string>
+    <string name="plant_disease_detector">Plant Disease Detector</string>
+    <string name="please_register_with_your_information">Please register with your information</string>
+    <string name="register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="uploaded_image">Uploaded Images</string>
+    <string name="guide">Guide</string>
+</resources>

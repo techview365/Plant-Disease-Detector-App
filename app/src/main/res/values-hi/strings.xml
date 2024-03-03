@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">पादप रोग जांच ऐप</string>
+    <string name="your_crops">आपकी_फसलें</string>
+    <string name="community">समुदाय</string>
+    <string name="dukaan">दुकान</string>
+    <string name="you">आप</string>
+    <string name="click_to_register">रजिस्टर करने के लिए क्लिक करें</string>
+    <string name="click_to_login">लॉगिन करने के लिए क्लिक करें</string>
+    <string name="profile_image">प्रोफ़ाइल छवि</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="choose_language">भाषा चुनें</string>
+    <string name="plant_disease_detection_app">पादप रोग जांच ऐप</string>
+</resources>
