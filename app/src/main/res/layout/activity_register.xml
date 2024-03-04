@@ -27,10 +27,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/plant_disease_detector"
+            android:text="@string/agriscan"
             android:textStyle="bold"
             android:fontFamily="sans-serif-medium"
-            android:textSize="32sp"
+            android:textSize="44sp"
             android:textColor="@color/white"
             />
 

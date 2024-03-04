@@ -31,10 +31,26 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="8dp"
-                    android:text="Post Title"
+                    android:text="Types of Crops"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="#000"
                     android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:contentDescription="@string/guide"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/_crop" />
+
+
+                </LinearLayout>
 
                 <!-- Post Content -->
                 <TextView
@@ -42,40 +58,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="8dp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:text="Food plants were historically the first to be harvested and cultivated. They are grown fo... see more"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#666" />
+                    android:textColor="@color/black" />
 
-                <!-- Action Bar for Upvote, Downvote, and Translate -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingTop="8dp">
 
-                    <ImageView
-                        android:id="@+id/btn_upvote1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_add" />
-
-                    <ImageView
-                        android:id="@+id/btn_downvote1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_delete" />
-
-                    <ImageView
-                        android:id="@+id/btn_translate1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_search" />
-                </LinearLayout>
             </LinearLayout>
             <!-- End of Dummy Post -->
 
@@ -94,10 +81,26 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="8dp"
-                    android:text="Post Title"
+                    android:text="Story of Seasons: A Wonderful Life - Crop Growing Guide"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="#000"
                     android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:contentDescription="@string/guide"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/_crop_growing" />
+
+
+                </LinearLayout>
 
                 <!-- Post Content -->
                 <TextView
@@ -105,40 +108,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="8dp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:text="Here's a helpful guide to help players grow their crops successfully in Story of Seasons: A Wonderful Life. ... see more"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#666" />
+                    android:textColor="@color/black" />
 
-                <!-- Action Bar for Upvote, Downvote, and Translate -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingTop="8dp">
 
-                    <ImageView
-                        android:id="@+id/btn_upvote2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_add" />
-
-                    <ImageView
-                        android:id="@+id/btn_downvote2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_delete" />
-
-                    <ImageView
-                        android:id="@+id/btn_translate2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_search" />
-                </LinearLayout>
             </LinearLayout>
             <!-- End of Dummy Post -->
 
@@ -157,10 +131,26 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="8dp"
-                    android:text="Post Title"
+                    android:text="Crop Production and Management - EARLY MAN’S FOOD"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="#000"
                     android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:contentDescription="@string/guide"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/_crop_production_and_management" />
+
+
+                </LinearLayout>
 
                 <!-- Post Content -->
                 <TextView
@@ -168,43 +158,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="8dp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:text="Early man was primarily a hunter and a flesh-eater. He also ate fruits and seeds. He did not cultivate food. He was a food gatherer.... see more"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#666" />
+                    android:textColor="@color/black" />
 
-                <!-- Action Bar for Upvote, Downvote, and Translate -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingTop="8dp">
 
-                    <ImageView
-                        android:id="@+id/btn_upvote3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_add" />
-
-                    <ImageView
-                        android:id="@+id/btn_downvote3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_delete" />
-
-                    <ImageView
-                        android:id="@+id/btn_translate3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_search" />
-                </LinearLayout>
             </LinearLayout>
             <!-- End of Dummy Post -->
-
-
             <!-- Start of Dummy Post -->
             <LinearLayout
                 android:layout_width="match_parent"
@@ -220,10 +180,26 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="8dp"
-                    android:text="Post Title"
+                    android:text="Top 5 Most Profitable Crops in India"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="#000"
                     android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:contentDescription="@string/guide"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/_most_profitable_crops_in_india" />
+
+
+                </LinearLayout>
 
                 <!-- Post Content -->
                 <TextView
@@ -231,42 +207,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="8dp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:text="Agriculture has been the backbone of India’s economy for centuries, providing employment to a large portion of the population and contributing significantly to the nation’s GDP.... see more"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#666" />
+                    android:textColor="@color/black" />
 
-                <!-- Action Bar for Upvote, Downvote, and Translate -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingTop="8dp">
 
-                    <ImageView
-                        android:id="@+id/btn_upvote4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_add" />
-
-                    <ImageView
-                        android:id="@+id/btn_downvote4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_delete" />
-
-                    <ImageView
-                        android:id="@+id/btn_translate4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_search" />
-                </LinearLayout>
             </LinearLayout>
             <!-- End of Dummy Post -->
-
             <!-- Start of Dummy Post -->
             <LinearLayout
                 android:layout_width="match_parent"
@@ -282,10 +229,26 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="8dp"
-                    android:text="Post Title"
+                    android:text="Need for Weather Forecasts for Agriculture"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="#000"
                     android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:contentDescription="@string/guide"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/_weather_forecasts_for_agriculture" />
+
+
+                </LinearLayout>
 
                 <!-- Post Content -->
                 <TextView
@@ -293,287 +256,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingBottom="8dp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:text="Weather plays an important role in agricultural production systems through its influence on the growth, development and yields of a crop, incidence of pests and diseases, water needs and fertilizer requirements in terms of differences in nutrient mobilization due ... see more"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#666" />
+                    android:textColor="@color/black" />
 
-                <!-- Action Bar for Upvote, Downvote, and Translate -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingTop="8dp">
 
-                    <ImageView
-                        android:id="@+id/btn_upvote5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_add" />
-
-                    <ImageView
-                        android:id="@+id/btn_downvote5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_delete" />
-
-                    <ImageView
-                        android:id="@+id/btn_translate5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_search" />
-                </LinearLayout>
             </LinearLayout>
             <!-- End of Dummy Post -->
 
-            <!-- Start of Dummy Post -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                android:elevation="2dp"
-                android:orientation="vertical"
-                android:padding="16dp">
 
-                <!-- Post Title -->
-                <TextView
-                    android:id="@+id/post_title6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="8dp"
-                    android:text="Post Title"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="#000"
-                    android:textStyle="bold" />
 
-                <!-- Post Content -->
-                <TextView
-                    android:id="@+id/post_content6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="8dp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#666" />
-
-                <!-- Action Bar for Upvote, Downvote, and Translate -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingTop="8dp">
-
-                    <ImageView
-                        android:id="@+id/btn_upvote6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_add" />
-
-                    <ImageView
-                        android:id="@+id/btn_downvote6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_delete" />
-
-                    <ImageView
-                        android:id="@+id/btn_translate6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_search" />
-                </LinearLayout>
-            </LinearLayout>
-            <!-- End of Dummy Post -->
-            <!-- Start of Dummy Post -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                android:elevation="2dp"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <!-- Post Title -->
-                <TextView
-                    android:id="@+id/post_title7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="8dp"
-                    android:text="Post Title"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="#000"
-                    android:textStyle="bold" />
-
-                <!-- Post Content -->
-                <TextView
-                    android:id="@+id/post_content7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="8dp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#666" />
-
-                <!-- Action Bar for Upvote, Downvote, and Translate -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingTop="8dp">
-
-                    <ImageView
-                        android:id="@+id/btn_upvote7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_add" />
-
-                    <ImageView
-                        android:id="@+id/btn_downvote7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_delete" />
-
-                    <ImageView
-                        android:id="@+id/btn_translate7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_search" />
-                </LinearLayout>
-            </LinearLayout>
-            <!-- End of Dummy Post -->
-
-            <!-- Start of Dummy Post -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                android:elevation="2dp"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <!-- Post Title -->
-                <TextView
-                    android:id="@+id/post_title8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="8dp"
-                    android:text="Post Title"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="#000"
-                    android:textStyle="bold" />
-
-                <!-- Post Content -->
-                <TextView
-                    android:id="@+id/post_content8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="8dp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#666" />
-
-                <!-- Action Bar for Upvote, Downvote, and Translate -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingTop="8dp">
-
-                    <ImageView
-                        android:id="@+id/btn_upvote8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_add" />
-
-                    <ImageView
-                        android:id="@+id/btn_downvote8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_delete" />
-
-                    <ImageView
-                        android:id="@+id/btn_translate8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_search" />
-                </LinearLayout>
-            </LinearLayout>
-            <!-- End of Dummy Post -->
-            <!-- Start of Dummy Post -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                android:elevation="2dp"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <!-- Post Title -->
-                <TextView
-                    android:id="@+id/post_title9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="8dp"
-                    android:text="Post Title"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="#000"
-                    android:textStyle="bold" />
-
-                <!-- Post Content -->
-                <TextView
-                    android:id="@+id/post_content9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="8dp"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="#666" />
-
-                <!-- Action Bar for Upvote, Downvote, and Translate -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="end"
-                    android:orientation="horizontal"
-                    android:paddingTop="8dp">
-
-                    <ImageView
-                        android:id="@+id/btn_upvote9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_add" />
-
-                    <ImageView
-                        android:id="@+id/btn_downvote9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_delete" />
-
-                    <ImageView
-                        android:id="@+id/btn_translate9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="8dp"
-                        android:src="@android:drawable/ic_menu_search" />
-                </LinearLayout>
-            </LinearLayout>
-            <!-- End of Dummy Post -->
 
 
             <!-- Repeat the above block for more dummy posts if needed -->

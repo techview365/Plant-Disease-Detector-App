@@ -18,8 +18,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import org.tensorflow.lite.DataType;
 import org.tensorflow.lite.Interpreter;
@@ -59,9 +62,46 @@ public class CropFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_crop, container, false);
 
+        // Set up the guide card click listener
+        CardView guideCard = view.findViewById(R.id.guideCard); // Replace with your actual guide card ID
+        guideCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Replace the fragment
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+                Fragment guideFragment = GuideFragment.newInstance("Water Guide"); // Create new instance of GuideFragment
+                // Perform the fragment transaction to replace CropFragment with GuideFragment
+                FragmentTransaction transaction = getParentFragmentManager().beginTransaction();
+
+                fragmentTransaction.replace(R.id.fragment_crop, guideFragment); // Replace 'fragment_container' with the ID of your container
+                fragmentTransaction.addToBackStack(null); // Add this transaction to the back stack
+                fragmentTransaction.commit();
+            }
+        });
+
+        // setup the pests and disease click listener
+        CardView pestsAndDisease = view.findViewById(R.id.pestsAndDisease); // Replace with your actual pestsAndDisease card ID
+        pestsAndDisease.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Replace the fragment
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+                Fragment pestsAndDiseaseFragment = PestsAndDiseaseFragment.newInstance("Pests and Disease"); // Create new instance of GuideFragment
+                // Perform the fragment transaction to replace CropFragment with GuideFragment
+                FragmentTransaction transaction = getParentFragmentManager().beginTransaction();
+
+                fragmentTransaction.replace(R.id.fragment_crop, pestsAndDiseaseFragment); // Replace 'fragment_container' with the ID of your container
+                fragmentTransaction.addToBackStack(null); // Add this transaction to the back stack
+                fragmentTransaction.commit();
+            }
+        });
+
         imageView = view.findViewById(R.id.uploadedImage);
         resultTextView = view.findViewById(R.id.resultTextView); // Make sure to have a TextView with this id in your layout
-
         // Set the initial size of the imageView to 100dp
         ViewGroup.LayoutParams layoutParams = imageView.getLayoutParams();
         layoutParams.height = dpToPx(100); // Convert 100dp to pixels
@@ -167,6 +207,8 @@ public class CropFragment extends Fragment {
                 int paddingDp = 4; // Assuming a 2dp border and wanting some space
                 int paddingPx = dpToPx(paddingDp);
                 imageView.setPadding(paddingPx, paddingPx, paddingPx, paddingPx);
+
+
                 // Run model inference and display results
                 float[] results = runInference(preprocessedImage);
                 displayResults(results);

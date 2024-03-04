@@ -44,6 +44,7 @@
                         android:text="VIEW ALL"
                         android:textColor="@color/black" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -78,6 +79,7 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
+                                    android:scaleType="centerCrop"
                                     android:src="@drawable/_apple" />
 
                                 <TextView
@@ -95,8 +97,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -112,6 +114,7 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
+                                    android:scaleType="centerCrop"
                                     android:src="@drawable/_banana" />
 
                                 <TextView
@@ -138,8 +141,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -154,8 +157,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_capsiccum"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_capsiccum" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -172,8 +175,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -188,8 +191,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_cotton"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_cotton" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -231,8 +234,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_cowpea"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_cowpea" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -265,8 +268,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_cumin"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_cumin" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -291,8 +294,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -307,8 +310,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_fenugreek"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_fenugreek" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -325,8 +328,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -341,8 +344,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_ginger"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_ginger" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -367,8 +370,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -383,8 +386,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_grape"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_grape" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -401,8 +404,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -417,8 +420,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_oats"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_oats" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -443,8 +446,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -459,8 +462,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_mango"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_mango" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -477,8 +480,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -493,8 +496,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_melon"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_melon" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -519,8 +522,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -535,8 +538,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_millet"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_millet" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -553,8 +556,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -569,8 +572,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_mustered"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_mustered" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -595,8 +598,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -611,8 +614,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_okra"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_okra" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -629,8 +632,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -645,8 +648,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_papaya"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_papaya" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -671,8 +674,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -687,8 +690,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_pearl_millet"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_pearl_millet" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -705,8 +708,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -721,8 +724,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_rice"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_rice" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -747,8 +750,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -763,8 +766,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_soybeans"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_soybeans" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -781,8 +784,8 @@
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
                             android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="16dp"
                             app:cardElevation="6dp">
 
@@ -797,8 +800,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="100dp"
                                     android:contentDescription="@string/guide"
-                                    android:src="@drawable/_sweetpotato"
-                                    />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_sweetpotato" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -811,160 +814,9 @@
                         </androidx.cardview.widget.CardView>
                     </LinearLayout>
                     <!-- Card container -->
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:orientation="horizontal"
-                        android:padding="16dp">
-
-                        <!-- Guide Card -->
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
-                            android:backgroundTint="@color/material_dynamic_neutral95"
-                            app:cardCornerRadius="16dp"
-                            app:cardElevation="6dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical"
-                                android:padding="10dp">
-
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:contentDescription="@string/guide"
-                                    android:src="@drawable/_termeric"
-                                    />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="8dp"
-                                    android:text="Termeric"
-                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                                    android:textSize="16sp" />
-                            </LinearLayout>
-                        </androidx.cardview.widget.CardView>
-
-                        <!-- Guide Card -->
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
-                            android:backgroundTint="@color/material_dynamic_neutral95"
-                            app:cardCornerRadius="16dp"
-                            app:cardElevation="6dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical"
-                                android:padding="10dp">
-
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:contentDescription="@string/guide"
-                                    android:src="@drawable/bengalgram"
-                                    />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="8dp"
-                                    android:text="Bengalgram"
-                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                                    android:textSize="16sp" />
-                            </LinearLayout>
-                        </androidx.cardview.widget.CardView>
-                    </LinearLayout>
                     <!-- Card container -->
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:orientation="horizontal"
-                        android:padding="16dp">
-
-                        <!-- Guide Card -->
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
-                            android:backgroundTint="@color/material_dynamic_neutral95"
-                            app:cardCornerRadius="16dp"
-                            app:cardElevation="6dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical"
-                                android:padding="10dp">
-
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:contentDescription="@string/guide"
-                                    android:src="@drawable/blackgram"
-                                    />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="8dp"
-                                    android:text="Black Gram"
-                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                                    android:textSize="16sp" />
-                            </LinearLayout>
-                        </androidx.cardview.widget.CardView>
-
-                        <!-- Guide Card -->
-                        <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:layout_margin="8dp"
-                            app:cardBackgroundColor="@color/white"
-                            android:backgroundTint="@color/material_dynamic_neutral95"
-                            app:cardCornerRadius="16dp"
-                            app:cardElevation="6dp">
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:gravity="center_horizontal"
-                                android:orientation="vertical"
-                                android:padding="10dp">
-
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:contentDescription="@string/guide"
-                                    android:src="@drawable/brinjal"
-                                    />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="8dp"
-                                    android:text="Brinjal"
-                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                                    android:textSize="16sp" />
-                            </LinearLayout>
-                        </androidx.cardview.widget.CardView>
-                    </LinearLayout>
 
                 </LinearLayout>
-
 
 
             </LinearLayout>
