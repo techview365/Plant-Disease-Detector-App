@@ -22,7 +22,7 @@
         android:layout_height="60dp"
         android:background="@android:drawable/bottom_bar"
         android:backgroundTint="@color/dark_green"
-        android:text="AgriScan"
+        android:text="@string/agriscan"
         android:textColor="#ffffff"
         android:textSize="18sp"
         android:textStyle="bold"
