@@ -19,7 +19,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class RegisterActivity extends AppCompatActivity {
+public class RegisterActivity extends BaseActivity{
 
     TextInputEditText editTextEmail, editTextPassword;
     Button buttonReg;

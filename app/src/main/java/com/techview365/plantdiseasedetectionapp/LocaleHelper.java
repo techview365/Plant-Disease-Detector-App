@@ -9,7 +9,7 @@ import java.util.Locale;
 
 public class LocaleHelper {
     public static void setLocale(Context context) {
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+        SharedPreferences preferences = context.getSharedPreferences("LanguageSettings", Context.MODE_PRIVATE);
         String lang = preferences.getString("SELECTED_LANGUAGE", "en");
         Locale locale = new Locale(lang);
         Locale.setDefault(locale);

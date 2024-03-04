@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
 
-public class LanguageSelectionActivity extends AppCompatActivity {
+public class LanguageSelectionActivity extends BaseActivity{
     private RadioGroup radioGroupLanguages;
     private Button buttonContinue;
 

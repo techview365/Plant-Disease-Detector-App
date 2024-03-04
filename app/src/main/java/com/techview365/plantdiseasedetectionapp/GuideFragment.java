@@ -47,8 +47,13 @@ public class GuideFragment extends Fragment {
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
                         R.drawable._crop, // Replace with your actual drawable resource
-                        "Example Title",
-                        "This is an example description."
+                        "WATER GUIDE",
+                        "1. Understand the water needs: Different plants and crops have varying water requirements. Research and learn about the specific needs of the plants you are growing.\n" +
+                                "2. Check the soil moisture: Before watering, check the moisture level of the soil. Stick your finger about an inch into the soil. If it feels dry, it's time to water. If it's still moist, hold off on watering.\n" +
+                                "3. Water deeply: When you do water, make sure to water deeply and thoroughly. This encourages the roots to grow deeper and helps plants withstand dry periods.\n" +
+                                "4. Time of day: Water plants in the early morning or late afternoon when temperatures are cooler. This reduces water loss due to evaporation.\n" +
+                                "5. Avoid overwatering: Overwatering can lead to root rot and other issues. Make sure not to water too frequently or excessively.\n" +
+                                "6. Consider the weather: Adjust your watering schedule based on the weather conditions. If it has rained recently or if it's a humid day, you may not need to water as much."
                 );
                 openPostFragment(postFragment);
             }
@@ -61,8 +66,14 @@ public class GuideFragment extends Fragment {
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
                         R.drawable._crop, // Replace with your actual drawable resource
-                        "Example Title",
-                        "This is an example description."
+                        "Sunlight guide",
+                        "\n" +
+                                "1. Know the sunlight requirements: Different plants have different sunlight needs. Some thrive in full sun, while others prefer partial shade. Research the specific sunlight requirements of the plants you are growing.\n" +
+                                "2. Observe the sunlight patterns: Observe how the sunlight moves across your garden or growing area throughout the day. Take note of areas that receive direct sunlight, partial shade, or full shade.\n" +
+                                "3. Place plants strategically: Based on the sunlight patterns, place your plants in areas that match their sunlight requirements. Position sun-loving plants where they can receive maximum sunlight, while shade-loving plants should be placed in areas with partial shade or full shade.\n" +
+                                "4. Morning sun vs. afternoon sun: Morning sunlight is generally less intense than afternoon sunlight. If you live in a hot climate, consider providing some shade or protection during the hottest part of the day to prevent sunburn on sensitive plants.\n" +
+                                "5. Monitor plant response: Pay attention to how your plants respond to the sunlight they receive. If they appear to be wilting, scorched, or not growing properly, it could be a sign that they are not getting the right amount or intensity of sunlight.\n" +
+                                "6. Adjust as needed: If you notice any issues with your plants' growth or health, consider adjusting their placement to provide more or less sunlight as required."
                 );
                 openPostFragment(postFragment);
             }
@@ -74,8 +85,26 @@ public class GuideFragment extends Fragment {
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
                         R.drawable._crop, // Replace with your actual drawable resource
-                        "Example Title",
-                        "This is an example description."
+                        "Fertilizing guide",
+                        "1. Understand your plants' needs: Different plants have different nutrient requirements. Research the specific fertilizing needs of the plants you are growing.\n" +
+                                "2. Choose the right fertilizer: Select a fertilizer that matches the nutrient needs of your plants. There are different types of fertilizers available, such as organic and synthetic options. Follow the instructions on the fertilizer packaging for proper usage.\n" +
+                                "3. Timing is important: Fertilize your plants at the right time. In general, it's best to fertilize during the growing season when plants are actively growing and can benefit from the nutrients.\n" +
+                                "4. Follow the recommended dosage: Use the recommended dosage of fertilizer as specified on the packaging. Over-fertilizing can harm your plants, so it's important to follow the instructions carefully.\n" +
+                                "5. Apply evenly: Distribute the fertilizer evenly around the base of the plants. Avoid getting the fertilizer directly on the leaves or stems, as it may cause damage.\n" +
+                                "6. Water after fertilizing: After applying the fertilizer, water your plants thoroughly. This helps to dissolve and distribute the nutrients into the soil, making them more accessible to the roots.\n" +
+                                "7. Monitor plant response: Keep an eye on how your plants respond to fertilization. If they show signs of nutrient deficiencies or excesses, adjust the fertilizing schedule or dosage accordingly.\n" +
+                                "Here are examples of organic and synthetic fertilizers:\n" +
+                                "1. Organic fertilizer: \n" +
+                                "- Compost: Made from decomposed organic matter like kitchen scraps, leaves, and grass clippings. It enriches the soil with nutrients and improves its structure.\n" +
+                                "- Manure: Animal waste, such as cow or chicken manure, is rich in nutrients and can be used as a natural fertilizer.\n" +
+                                "- Bone meal: Ground-up animal bones provide phosphorus and calcium to promote root development and overall plant growth.\n" +
+                                "\n" +
+                                "2. Synthetic fertilizer:\n" +
+                                "- Nitrogen-based fertilizer: Examples include ammonium nitrate or urea. These fertilizers provide a quick boost of nitrogen, which is essential for leafy green growth.\n" +
+                                "- Phosphorus-based fertilizer: Phosphorus helps with root development and flower production. Examples include superphosphate or triple superphosphate.\n" +
+                                "- Potassium-based fertilizer: Potassium promotes overall plant health and disease resistance. Examples include potassium chloride or potassium sulfate.\n" +
+                                "\n" +
+                                "Remember to use these fertilizers according to the instructions provided on their packaging and consider the specific needs of your plants. Happy gardening!"
                 );
                 openPostFragment(postFragment);
             }
@@ -87,8 +116,16 @@ public class GuideFragment extends Fragment {
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
                         R.drawable._crop, // Replace with your actual drawable resource
-                        "Example Title",
-                        "This is an example description."
+                        "Soil guide",
+                        "1. Soil type: Different plants have different soil preferences. Some prefer well-draining soil, while others thrive in clay or sandy soil. Research the specific soil requirements for the plants you want to grow.\n" +
+                                "2. pH level: Soil pH affects nutrient availability to plants. Most plants prefer a slightly acidic to neutral pH range of 6.0 to 7.0. Test your soil's pH and adjust it if needed using amendments like lime or sulfur.\n" +
+                                "3. Organic matter: Adding organic matter, such as compost or well-rotted manure, improves soil structure, fertility, and water-holding capacity. It also enhances beneficial microbial activity.\n" +
+                                "4. Nutrient balance: Ensure your soil has a balanced supply of essential nutrients like nitrogen, phosphorus, and potassium (NPK). Conduct a soil test to determine nutrient deficiencies and amend accordingly.\n" +
+                                "5. Drainage: Good drainage is crucial for healthy plant growth. Avoid waterlogged soil, as it can lead to root rot. If your soil retains too much water, consider adding organic matter or using raised beds.\n" +
+                                "6. Mulching: Apply a layer of organic mulch, such as straw or wood chips, around plants to conserve moisture, suppress weeds, and regulate soil temperature.\n" +
+                                "7. Crop rotation: Rotate crops each season to prevent the buildup of pests and diseases in the soil. This practice also helps maintain nutrient balance and soil health.\n" +
+                                "8. Watering: Water plants deeply and infrequently, allowing the soil to dry slightly between waterings. This encourages deeper root growth and reduces the risk of overwatering.\n" +
+                                "Remember, soil requirements can vary depending on the specific plants and crops you are growing.. Happy gardening!"
                 );
                 openPostFragment(postFragment);
             }
@@ -100,8 +137,18 @@ public class GuideFragment extends Fragment {
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
                         R.drawable._crop, // Replace with your actual drawable resource
-                        "Example Title",
-                        "This is an example description."
+                        "Pest guide",
+                        "1. Identify pests: Learn to identify common pests that can affect your plants, such as aphids, caterpillars, snails, or fungal diseases like powdery mildew.\n" +
+                                "2. Regular inspection: Regularly inspect your plants for signs of pest damage, including chewed leaves, wilting, discoloration, or the presence of pests themselves.\n" +
+                                "3. Natural predators: Encourage beneficial insects like ladybugs, lacewings, or birds that feed on pests. Planting flowers or herbs that attract these predators can help control pest populations.\n" +
+                                "4. Companion planting: Some plants naturally repel pests or attract beneficial insects. For example, marigolds can deter aphids, and planting basil near tomatoes can help repel tomato hornworms.\n" +
+                                "5. Physical barriers: Use physical barriers like netting or row covers to protect plants from pests like birds, rabbits, or larger insects.\n" +
+                                "6. Organic sprays: If pest populations become problematic, consider using organic sprays like neem oil or insecticidal soap. Follow the instructions carefully and avoid spraying during hot or sunny periods.\n" +
+                                "7. Crop rotation: Rotate crops each season to disrupt pest life cycles and reduce the risk of pest buildup in the soil.\n" +
+                                "8. Proper sanitation: Remove and destroy any infected or infested plant material to prevent the spread of pests or diseases. Clean gardening tools regularly to avoid cross-contamination.\n" +
+                                "9. Water and fertilize properly: Avoid overwatering or over-fertilizing, as this can attract pests. Proper watering and fertilization practices promote healthy plant growth, making them less susceptible to pests.\n" +
+                                "10. Early intervention: Act promptly at the first sign of pest damage. The earlier you address the issue, the easier it is to control and minimize the damage.\n" +
+                                "Remember, pest control methods can vary depending on the specific pests and plants you are dealing with. Happy gardening and pest-free crops!"
                 );
                 openPostFragment(postFragment);
             }
@@ -113,8 +160,18 @@ public class GuideFragment extends Fragment {
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
                         R.drawable._crop, // Replace with your actual drawable resource
-                        "Example Title",
-                        "This is an example description."
+                        "Humidity guide",
+                        "1. Understand optimal humidity levels: Different plants have varying humidity preferences. Research the ideal humidity range for your specific plants or crops.\n" +
+                                "2. Monitor humidity levels: Use a hygrometer or a digital humidity monitor to keep track of the humidity in your growing area.\n" +
+                                "3. Increase humidity: If the humidity is too low for your plants, you can increase it by using methods like misting the leaves with water, placing a tray of water near the plants, or using a humidifier.\n" +
+                                "4. Decrease humidity: If the humidity is too high and causing issues like fungal diseases, you can decrease it by improving air circulation, using fans, or using a dehumidifier.\n" +
+                                "5. Proper watering: Overwatering can lead to high humidity levels, so make sure to water your plants appropriately based on their needs. Avoid letting water sit in trays or pots for extended periods.\n" +
+                                "6. Mulching: Applying a layer of organic mulch around the base of your plants can help regulate soil moisture and prevent excessive evaporation, which can affect humidity levels.\n" +
+                                "7. Ventilation: Ensure proper ventilation in your growing area to prevent stagnant air and promote air movement, which can help regulate humidity levels.\n" +
+                                "8. Time of day: Humidity levels tend to be higher during the night and early morning. Avoid watering your plants during these times to prevent excessive moisture buildup.\n" +
+                                "9. Location considerations: Consider the natural humidity levels in your region when selecting plants for your garden. Choose varieties that are well-suited to your local climate.\n" +
+                                "10. Regular monitoring: Continuously monitor the humidity levels and make adjustments as needed based on the specific requirements of your plants.\n" +
+                                "Remember, maintaining proper humidity levels is crucial for the overall health and growth of your plants. By providing the right humidity conditions, you can help prevent issues like wilting, fungal diseases, or stress-related problems. Happy growing! \uD83C\uDF31\uD83C\uDF3F"
                 );
                 openPostFragment(postFragment);
             }
@@ -126,8 +183,17 @@ public class GuideFragment extends Fragment {
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
                         R.drawable._crop, // Replace with your actual drawable resource
-                        "Example Title",
-                        "This is an example description."
+                        "Harvesting guide",
+                        "1. Check for maturity: Determine the appropriate time for harvesting by checking for signs of maturity specific to each plant or crop. Look for factors like color, size, texture, and ripeness.\n" +
+                                "2. Harvest in the morning: For most plants, it's best to harvest in the morning when the temperatures are cooler. This helps preserve the flavor, texture, and nutritional value of the produce.\n" +
+                                "3. Use the right tools: Use appropriate tools like pruning shears, scissors, or a sharp knife to harvest your plants. Make clean cuts to minimize damage to the plant.\n" +
+                                "4. Handle with care: Handle harvested produce gently to avoid bruising or damaging the plants. This helps maintain the quality and appearance of the crops.\n" +
+                                "5. Remove any damaged or diseased parts: Inspect the harvested produce and remove any damaged, diseased, or rotten parts. This helps prevent the spread of diseases and ensures better quality.\n" +
+                                "6. Sort and clean: Sort the harvested crops based on size, color, or any other relevant criteria. Clean them gently to remove any dirt, debris, or pests.\n" +
+                                "7. Proper storage: Store the harvested crops in appropriate conditions to maintain their freshness and quality. Some crops require refrigeration, while others can be stored at room temperature. Follow specific storage recommendations for each type of plant or crop.\n" +
+                                "8. Label and organize: If you're harvesting multiple types of plants or crops, label and organize them properly to avoid confusion. This makes it easier to use or sell them later.\n" +
+                                "9. Enjoy the fruits of your labor: Once harvested, savor the delicious flavors and nutritious benefits of your homegrown produce. Share them with friends and family or use them in your favorite recipes.\n" +
+                                "Remember, the timing and techniques for harvesting can vary depending on the specific plant or crop you're growing. It's always a good idea to research and understand the requirements of each plant to ensure a successful harvest. Happy harvesting!"
                 );
                 openPostFragment(postFragment);
             }
@@ -139,8 +205,17 @@ public class GuideFragment extends Fragment {
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
                         R.drawable._crop, // Replace with your actual drawable resource
-                        "Example Title",
-                        "This is an example description."
+                        "Pruning guide",
+                        "1. Assess the plant: Before pruning, assess the overall health and shape of the plant. Identify any dead, damaged, or diseased branches or stems that need to be removed.\n" +
+                                "2. Choose the right time: Prune plants during their dormant season, typically in late winter or early spring before new growth begins. However, some plants may have specific pruning requirements, so it's essential to research the specific plant you're working with.\n" +
+                                "3. Use the proper tools: Use clean and sharp pruning tools, such as pruning shears, loppers, or a pruning saw, depending on the size of the branches or stems you're cutting. This ensures clean cuts and minimizes damage to the plant.\n" +
+                                "4. Remove dead or diseased branches: Start by removing any dead, damaged, or diseased branches. Cut them back to healthy tissue or to the main stem, making sure to sterilize your tools between cuts to prevent the spread of diseases.\n" +
+                                "5. Thin out overcrowded growth: Identify branches that are crossing, rubbing against each other, or overcrowding the plant's canopy. Carefully remove these branches to improve air circulation and allow more light to reach the inner parts of the plant.\n" +
+                                "6. Shape the plant: Prune to maintain the desired shape and size of the plant. Make cuts just above a bud or lateral branch to encourage new growth in the desired direction.\n" +
+                                "7. Consider flowering plants: If you're pruning flowering plants, be aware of their blooming habits. Some plants produce flowers on new growth, so pruning in early spring can promote more blooms. Others flower on old wood, so prune after they bloom.\n" +
+                                "8. Clean up and dispose of debris: Once you've finished pruning, clean up any debris and dispose of it properly. This helps prevent the spread of diseases and pests.\n" +
+                                "9. Monitor and maintain: Regularly monitor your plants throughout the growing season and address any new growth issues or pruning needs as they arise.\n" +
+                                "Remember, different plants have different pruning requirements, so it's crucial to research and understand the specific needs of each plant before pruning. Happy pruning!"
                 );
                 openPostFragment(postFragment);
             }
