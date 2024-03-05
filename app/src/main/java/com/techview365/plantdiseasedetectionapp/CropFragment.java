@@ -1,6 +1,9 @@
 package com.techview365.plantdiseasedetectionapp;
 
+
 import static android.app.Activity.RESULT_OK;
+
+import static androidx.core.app.ActivityCompat.startActivityForResult;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -41,6 +44,7 @@ public class CropFragment extends Fragment {
 
     private static final int REQUEST_IMAGE_CAPTURE = 1;
     private static final int REQUEST_IMAGE_PICK = 2;
+
     private ImageView imageView;
     private TextView resultTextView;
     private Interpreter tflite;
@@ -62,6 +66,28 @@ public class CropFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_crop, container, false);
 
+
+        setupGuideCardListener(view);
+        setupPestsAndDiseaseListener(view);
+
+
+        imageView = view.findViewById(R.id.uploadedImage);
+        resultTextView = view.findViewById(R.id.resultTextView); // Make sure to have a TextView with this id in your layout
+        // Set the initial size of the imageView to 100dp
+        ViewGroup.LayoutParams layoutParams = imageView.getLayoutParams();
+        layoutParams.height = dpToPx(100); // Convert 100dp to pixels
+        layoutParams.height = dpToPx(100); // Convert dp to pixel for height
+        imageView.setLayoutParams(layoutParams);
+
+        setupCameraButtonListener(view);
+        setupUploadButtonListener(view);
+
+        // Load the TensorFlow Lite model
+        loadModel();
+
+        return view;
+    }
+    private void setupGuideCardListener(View view) {
         // Set up the guide card click listener
         CardView guideCard = view.findViewById(R.id.guideCard); // Replace with your actual guide card ID
         guideCard.setOnClickListener(new View.OnClickListener() {
@@ -80,7 +106,8 @@ public class CropFragment extends Fragment {
                 fragmentTransaction.commit();
             }
         });
-
+    }
+    private void setupPestsAndDiseaseListener(View view) {
         // setup the pests and disease click listener
         CardView pestsAndDisease = view.findViewById(R.id.pestsAndDisease); // Replace with your actual pestsAndDisease card ID
         pestsAndDisease.setOnClickListener(new View.OnClickListener() {
@@ -99,15 +126,8 @@ public class CropFragment extends Fragment {
                 fragmentTransaction.commit();
             }
         });
-
-        imageView = view.findViewById(R.id.uploadedImage);
-        resultTextView = view.findViewById(R.id.resultTextView); // Make sure to have a TextView with this id in your layout
-        // Set the initial size of the imageView to 100dp
-        ViewGroup.LayoutParams layoutParams = imageView.getLayoutParams();
-        layoutParams.height = dpToPx(100); // Convert 100dp to pixels
-        layoutParams.height = dpToPx(100); // Convert dp to pixel for height
-        imageView.setLayoutParams(layoutParams);
-
+    }
+    private void setupCameraButtonListener(View view){
         view.findViewById(R.id.btn_take).setOnClickListener(v -> {
             if (ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
                 requestCameraPermission();
@@ -115,62 +135,14 @@ public class CropFragment extends Fragment {
                 dispatchTakePictureIntent();
             }
         });
-
+    }
+    private void setupUploadButtonListener(View view){
         // If you have a button to upload image from gallery, you can set its onClickListener similar to the camera button
         // and handle the gallery intent
         view.findViewById(R.id.btn_upload).setOnClickListener(v -> {
             dispatchPickPictureIntent();
         });
-
-        // Load the TensorFlow Lite model
-        loadModel();
-
-        return view;
     }
-
-    private int dpToPx(int dp) {
-        return (int) (dp * getResources().getDisplayMetrics().density);
-    }
-
-
-    private void loadModel() {
-        Log.d("CropFragment", "Loading model...");
-        try {
-            tflite = new Interpreter(loadModelFile(getActivity(), "model.tflite"));
-            // Add these lines to check the model's input specifications
-            inputShape = tflite.getInputTensor(0).shape(); // e.g., [1, height, width, 3]
-            DataType inputDataType = tflite.getInputTensor(0).dataType();
-            Log.d("ModelInput", "inputShape: " + Arrays.toString(inputShape) + ", inputDataType: " + inputDataType);
-        } catch (IOException e) {
-            Log.e("TFLite", "Error loading model", e);
-        }
-
-        Log.d("CropFragment", "Model loaded successfully");
-    }
-
-    private MappedByteBuffer loadModelFile(Activity activity, String modelName) throws IOException {
-        AssetFileDescriptor fileDescriptor = activity.getAssets().openFd(modelName);
-        FileInputStream inputStream = new FileInputStream(fileDescriptor.getFileDescriptor());
-        FileChannel fileChannel = inputStream.getChannel();
-        long startOffset = fileDescriptor.getStartOffset();
-        long declaredLength = fileDescriptor.getDeclaredLength();
-        return fileChannel.map(FileChannel.MapMode.READ_ONLY, startOffset, declaredLength);
-    }
-
-    private void dispatchTakePictureIntent() {
-        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        if (takePictureIntent.resolveActivity(getActivity().getPackageManager()) != null) {
-            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
-        }
-    }
-
-    private void dispatchPickPictureIntent() {
-        Intent pickPictureIntent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-        if (pickPictureIntent.resolveActivity(getActivity().getPackageManager()) != null) {
-            startActivityForResult(pickPictureIntent, REQUEST_IMAGE_PICK);
-        }
-    }
-
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -218,6 +190,66 @@ public class CropFragment extends Fragment {
         }
     }
 
+    private int dpToPx(int dp) {
+        return (int) (dp * getResources().getDisplayMetrics().density);
+    }
+
+    private void requestCameraPermission() {
+        requestPermissions(new String[]{Manifest.permission.CAMERA}, PERMISSION_REQUEST_CAMERA);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == PERMISSION_REQUEST_CAMERA) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                dispatchTakePictureIntent();
+            } else {
+                // Permission was denied. Handle the failure.
+            }
+        }
+    }
+
+    //Camera Module ---------------->
+
+    private void dispatchTakePictureIntent() {
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        if (takePictureIntent.resolveActivity(getActivity().getPackageManager()) != null) {
+            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+        }
+    }
+
+    private void dispatchPickPictureIntent() {
+        Intent pickPictureIntent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+        if (pickPictureIntent.resolveActivity(getActivity().getPackageManager()) != null) {
+            startActivityForResult(pickPictureIntent, REQUEST_IMAGE_PICK);
+        }
+    }
+
+//    Plant Disease Module ---------------->
+    private void loadModel() {
+        Log.d("CropFragment", "Loading model...");
+        try {
+            tflite = new Interpreter(loadModelFile(getActivity(), "model.tflite"));
+            // Add these lines to check the model's input specifications
+            inputShape = tflite.getInputTensor(0).shape(); // e.g., [1, height, width, 3]
+            DataType inputDataType = tflite.getInputTensor(0).dataType();
+            Log.d("ModelInput", "inputShape: " + Arrays.toString(inputShape) + ", inputDataType: " + inputDataType);
+        } catch (IOException e) {
+            Log.e("TFLite", "Error loading model", e);
+        }
+
+        Log.d("CropFragment", "Model loaded successfully");
+    }
+
+    private MappedByteBuffer loadModelFile(Activity activity, String modelName) throws IOException {
+        AssetFileDescriptor fileDescriptor = activity.getAssets().openFd(modelName);
+        FileInputStream inputStream = new FileInputStream(fileDescriptor.getFileDescriptor());
+        FileChannel fileChannel = inputStream.getChannel();
+        long startOffset = fileDescriptor.getStartOffset();
+        long declaredLength = fileDescriptor.getDeclaredLength();
+        return fileChannel.map(FileChannel.MapMode.READ_ONLY, startOffset, declaredLength);
+    }
 
     private Bitmap preprocessImage(Bitmap originalBitmap) {
         // Resize the bitmap to the required input size of the model
@@ -273,7 +305,6 @@ public class CropFragment extends Fragment {
         }
         return byteBuffer;
     }
-
 
     private void displayResults(float[] results) {
         // Assuming results contains the probabilities for each class
@@ -435,22 +466,4 @@ public class CropFragment extends Fragment {
                 return "Consult a professional for accurate diagnosis and treatment.";
         }
     }
-
-
-    private void requestCameraPermission() {
-        requestPermissions(new String[]{Manifest.permission.CAMERA}, PERMISSION_REQUEST_CAMERA);
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (requestCode == PERMISSION_REQUEST_CAMERA) {
-            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                dispatchTakePictureIntent();
-            } else {
-                // Permission was denied. Handle the failure.
-            }
-        }
-    }
-
 }
