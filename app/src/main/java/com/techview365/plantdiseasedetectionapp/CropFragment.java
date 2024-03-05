@@ -283,14 +283,30 @@ public class CropFragment extends Fragment {
             if (results[i] > results[maxIndex]) maxIndex = i;
         }
 
-        String diseaseName = getDiseaseName(maxIndex); // Implement this method based on your classes
-        String remedies = getRemediesForDisease(diseaseName); // Implement based on your knowledge base
+        // Set a confidence threshold. Adjust this value based on your needs.
+        float confidenceThreshold = 0.6f; // Example threshold
+        // Check if the highest confidence score is above the threshold
+        if (results[maxIndex] < confidenceThreshold) {
+            // The model is not confident about its prediction, display a default message
+            getActivity().runOnUiThread(() -> resultTextView.setText("No plant disease detected or object is unknown."));
+        } else {
+            // The model is confident about its prediction, proceed with displaying the disease information
+            String diseaseName = getDiseaseName(maxIndex);
+            String remedies = getRemediesForDisease(diseaseName);
+            getActivity().runOnUiThread(() -> {
+                resultTextView.setText(String.format("Disease Detected: %s\nRemedies: %s", diseaseName, remedies));
+            });
+        }
 
-//        resultTextView.setText(String.format("Disease Detected: %s\nRemedies: %s", diseaseName, remedies));
-        // Ensure UI update is run on the UI thread
-        getActivity().runOnUiThread(() -> {
-            resultTextView.setText(String.format("Disease Detected: %s\nRemedies: %s", diseaseName, remedies));
-        });
+
+//        String diseaseName = getDiseaseName(maxIndex); // Implement this method based on your classes
+//        String remedies = getRemediesForDisease(diseaseName); // Implement based on your knowledge base
+//
+////        resultTextView.setText(String.format("Disease Detected: %s\nRemedies: %s", diseaseName, remedies));
+//        // Ensure UI update is run on the UI thread
+//        getActivity().runOnUiThread(() -> {
+//            resultTextView.setText(String.format("Disease Detected: %s\nRemedies: %s", diseaseName, remedies));
+//        });
     }
 
     private String getDiseaseName(int classIndex) {
