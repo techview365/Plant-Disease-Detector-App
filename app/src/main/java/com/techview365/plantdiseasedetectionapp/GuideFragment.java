@@ -46,7 +46,7 @@ public class GuideFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
-                        R.drawable._crop, // Replace with your actual drawable resource
+                        R.drawable._watering_guide, // Replace with your actual drawable resource
                         "WATER GUIDE",
                         "1. Understand the water needs: Different plants and crops have varying water requirements. Research and learn about the specific needs of the plants you are growing.\n" +
                                 "2. Check the soil moisture: Before watering, check the moisture level of the soil. Stick your finger about an inch into the soil. If it feels dry, it's time to water. If it's still moist, hold off on watering.\n" +
@@ -65,7 +65,7 @@ public class GuideFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
-                        R.drawable._crop, // Replace with your actual drawable resource
+                        R.drawable._sunlight_guide, // Replace with your actual drawable resource
                         "Sunlight guide",
                         "\n" +
                                 "1. Know the sunlight requirements: Different plants have different sunlight needs. Some thrive in full sun, while others prefer partial shade. Research the specific sunlight requirements of the plants you are growing.\n" +
@@ -84,7 +84,7 @@ public class GuideFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
-                        R.drawable._crop, // Replace with your actual drawable resource
+                        R.drawable._fertilizing_guide, // Replace with your actual drawable resource
                         "Fertilizing guide",
                         "1. Understand your plants' needs: Different plants have different nutrient requirements. Research the specific fertilizing needs of the plants you are growing.\n" +
                                 "2. Choose the right fertilizer: Select a fertilizer that matches the nutrient needs of your plants. There are different types of fertilizers available, such as organic and synthetic options. Follow the instructions on the fertilizer packaging for proper usage.\n" +
@@ -115,7 +115,8 @@ public class GuideFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
-                        R.drawable._crop, // Replace with your actual drawable resource
+                        R.drawable._soil_guide
+                        , // Replace with your actual drawable resource
                         "Soil guide",
                         "1. Soil type: Different plants have different soil preferences. Some prefer well-draining soil, while others thrive in clay or sandy soil. Research the specific soil requirements for the plants you want to grow.\n" +
                                 "2. pH level: Soil pH affects nutrient availability to plants. Most plants prefer a slightly acidic to neutral pH range of 6.0 to 7.0. Test your soil's pH and adjust it if needed using amendments like lime or sulfur.\n" +
@@ -136,7 +137,7 @@ public class GuideFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
-                        R.drawable._crop, // Replace with your actual drawable resource
+                        R.drawable._pest_guide, // Replace with your actual drawable resource
                         "Pest guide",
                         "1. Identify pests: Learn to identify common pests that can affect your plants, such as aphids, caterpillars, snails, or fungal diseases like powdery mildew.\n" +
                                 "2. Regular inspection: Regularly inspect your plants for signs of pest damage, including chewed leaves, wilting, discoloration, or the presence of pests themselves.\n" +
@@ -159,7 +160,7 @@ public class GuideFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
-                        R.drawable._crop, // Replace with your actual drawable resource
+                        R.drawable._humidity_guide, // Replace with your actual drawable resource
                         "Humidity guide",
                         "1. Understand optimal humidity levels: Different plants have varying humidity preferences. Research the ideal humidity range for your specific plants or crops.\n" +
                                 "2. Monitor humidity levels: Use a hygrometer or a digital humidity monitor to keep track of the humidity in your growing area.\n" +
@@ -182,7 +183,7 @@ public class GuideFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
-                        R.drawable._crop, // Replace with your actual drawable resource
+                        R.drawable._harvesting_guide, // Replace with your actual drawable resource
                         "Harvesting guide",
                         "1. Check for maturity: Determine the appropriate time for harvesting by checking for signs of maturity specific to each plant or crop. Look for factors like color, size, texture, and ripeness.\n" +
                                 "2. Harvest in the morning: For most plants, it's best to harvest in the morning when the temperatures are cooler. This helps preserve the flavor, texture, and nutritional value of the produce.\n" +
@@ -204,7 +205,7 @@ public class GuideFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 PostFragment postFragment = PostFragment.newInstance(
-                        R.drawable._crop, // Replace with your actual drawable resource
+                        R.drawable._pruning_guide, // Replace with your actual drawable resource
                         "Pruning guide",
                         "1. Assess the plant: Before pruning, assess the overall health and shape of the plant. Identify any dead, damaged, or diseased branches or stems that need to be removed.\n" +
                                 "2. Choose the right time: Prune plants during their dormant season, typically in late winter or early spring before new growth begins. However, some plants may have specific pruning requirements, so it's essential to research the specific plant you're working with.\n" +

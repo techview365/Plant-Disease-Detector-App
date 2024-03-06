@@ -33,17 +33,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="center"
                         android:text="@string/categories"
                         android:textColor="@color/black"
                         android:textSize="22sp"
                         android:textStyle="bold" />
 
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/view_all"
-                        android:textColor="@color/black" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -55,6 +50,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:gravity="center"
                         android:orientation="horizontal"
                         android:padding="16dp">
 
@@ -63,6 +59,7 @@
                             android:id="@+id/exploreCard1"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
+                            android:layout_gravity="center"
                             android:layout_margin="8dp"
                             android:backgroundTint="@color/material_dynamic_neutral95"
                             app:cardBackgroundColor="@color/white"

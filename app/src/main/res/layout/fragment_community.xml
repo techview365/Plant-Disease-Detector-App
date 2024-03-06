@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CommunityFragment"
-    android:background="@drawable/remaining_all_page">
+    android:background="@drawable/remaining_all_page"
+    android:id="@+id/fragment_community">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

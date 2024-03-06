@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProfileFragment"
-    android:background="@drawable/remaining_all_page">
+    android:background="@drawable/remaining_all_page"
+    android:id="@+id/fragment_profile">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -37,12 +38,14 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
                     android:text="@string/user"
                     android:textSize="25sp"
-                    android:textStyle="bold"
 
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toTopOf="@+id/user_details"
                     app:layout_constraintEnd_toEndOf="@+id/user_details"
+                    app:layout_constraintHorizontal_bias="0.503"
                     app:layout_constraintStart_toStartOf="@+id/user_details"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -50,6 +53,7 @@
                     android:id="@+id/user_details"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
                     android:text="lionfischer@gmail.com"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +65,7 @@
                     android:id="@+id/linearLayout2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="40dp"
                     android:orientation="vertical"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +75,7 @@
                     app:layout_constraintVertical_bias="1.0">
 
                     <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/button"
+                        android:id="@+id/aboutButton"
                         style="@android:style/Widget.Button"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
@@ -81,10 +85,10 @@
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/btn_background_1"
                         android:backgroundTint="@color/material_dynamic_neutral95"
-                        android:drawableStart="@drawable/profile_info"
+                        android:drawableStart="@drawable/information"
                         android:drawablePadding="20dp"
                         android:paddingStart="20dp"
-                        android:text="@string/personal_information"
+                        android:text="@string/about"
                         android:textAlignment="viewStart"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -100,16 +104,16 @@
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/btn_background_1"
                         android:backgroundTint="@color/material_dynamic_neutral95"
-                        android:drawableStart="@drawable/bell"
+                        android:drawableStart="@drawable/search"
                         android:drawablePadding="20dp"
                         android:paddingStart="20dp"
-                        android:text="@string/notification"
+                        android:text="@string/explore"
                         android:textAlignment="viewStart"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/button3"
+                        android:id="@+id/communityButton"
                         style="@android:style/Widget.Button"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
@@ -119,16 +123,16 @@
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/btn_background_1"
                         android:backgroundTint="@color/material_dynamic_neutral95"
-                        android:drawableStart="@drawable/bookmark"
+                        android:drawableStart="@drawable/partners"
                         android:drawablePadding="20dp"
                         android:paddingStart="20dp"
-                        android:text="@string/my_post"
+                        android:text="@string/community"
                         android:textAlignment="viewStart"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/button4"
+                        android:id="@+id/buttonShare"
                         style="@android:style/Widget.Button"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
@@ -166,6 +170,7 @@
                         android:textStyle="bold" />
 
                     <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/backToMainPageButton"
                         style="@android:style/Widget.Button"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
