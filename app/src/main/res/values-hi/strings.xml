@@ -95,4 +95,6 @@
     <string name="back_to_main_page">मुख्य पृष्ठ पर वापस जाएँ</string>
     <string name="personal_information">व्यक्तिगत जानकारी</string>
     <string name="notification">अधिसूचना</string>
+    <string name="about">के बारे में</string>
+    <string name="name">नाम</string>
 </resources>

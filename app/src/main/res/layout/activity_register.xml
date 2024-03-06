@@ -71,6 +71,24 @@
             <View
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"/>
+
+            <!-- for name -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name"
+                    android:hint="@string/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- for margin -->
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+
             <!--    for email-->
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"

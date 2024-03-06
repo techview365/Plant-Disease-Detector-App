@@ -96,4 +96,5 @@
     <string name="personal_information">Personal Information</string>
     <string name="notification">Notification</string>
     <string name="about">About</string>
+    <string name="name">Name</string>
 </resources>
