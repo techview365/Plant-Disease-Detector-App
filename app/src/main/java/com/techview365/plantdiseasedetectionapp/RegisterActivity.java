@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
 
-public class RegisterActivity extends BaseActivity{
+public class RegisterActivity extends BaseActivity {
 
     TextInputEditText editTextEmail, editTextPassword, editTextName;
     Button buttonReg;
@@ -29,19 +29,6 @@ public class RegisterActivity extends BaseActivity{
     ProgressBar progressBar;
     TextView textView;
 
-    //    I have copied this code from https://firebase.google.com/docs/auth/android/password-auth#java_2
-    // this is onStart method
-    @Override
-    public void onStart() {
-        super.onStart();
-        // Check if user is signed in (non-null) and update UI accordingly.
-        FirebaseUser currentUser = mAuth.getCurrentUser();
-        if(currentUser != null){
-            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-            startActivity(intent);
-            finish();
-        }
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,102 +36,83 @@ public class RegisterActivity extends BaseActivity{
         mAuth = FirebaseAuth.getInstance();
         editTextEmail = findViewById(R.id.email);
         editTextPassword = findViewById(R.id.password);
+        editTextName = findViewById(R.id.name);
         buttonReg = findViewById(R.id.btn_register);
         progressBar = findViewById(R.id.progressBar);
         textView = findViewById(R.id.loginNow);
-        editTextName = findViewById(R.id.name);
-        textView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
 
-        buttonReg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        textView.setOnClickListener(v -> navigateToLogin());
+
+        buttonReg.setOnClickListener(v -> {
+            String name = editTextName.getText().toString();
+            String email = editTextEmail.getText().toString();
+            String password = editTextPassword.getText().toString();
+
+            if (validateInputs(name, email, password)) {
                 progressBar.setVisibility(View.VISIBLE);
-                String email, password, name;
-                name = editTextName.getText().toString();
-                email = String.valueOf(editTextEmail.getText());
-                password = String.valueOf(editTextPassword.getText());
-
-                if(TextUtils.isEmpty(name)){
-                    Toast.makeText(RegisterActivity.this, "Enter name", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-                if(TextUtils.isEmpty(email)){
-                    Toast.makeText(RegisterActivity.this, "Enter email", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-                if(TextUtils.isEmpty(password)){
-                    Toast.makeText(RegisterActivity.this, "Enter password", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-
-                // Sign up the user and add name to their profile
                 signUpUser(name, email, password);
-
-//                password authentication -> I have taken the code from this url
-//                https://firebase.google.com/docs/auth/android/password-auth#java_2
-                mAuth.createUserWithEmailAndPassword(email, password)
-                        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                            @Override
-                            public void onComplete(@NonNull Task<AuthResult> task) {
-                                progressBar.setVisibility(View.GONE);
-                                if (task.isSuccessful()) {
-                                    Toast.makeText(RegisterActivity.this, "Account created.",
-                                            Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                                    startActivity(intent);
-                                    finish();
-                                } else {
-                                    // If sign in fails, display a message to the user.
-                                    Toast.makeText(RegisterActivity.this, "Authentication failed.",
-                                            Toast.LENGTH_SHORT).show();
-                                }
-                            }
-                        });
-//                end password authentication
             }
-
         });
+    }
+
+    private boolean validateInputs(String name, String email, String password) {
+        if (TextUtils.isEmpty(name)) {
+            Toast.makeText(RegisterActivity.this, "Enter name", Toast.LENGTH_SHORT).show();
+            return false;
+        }
+        if (TextUtils.isEmpty(email)) {
+            Toast.makeText(RegisterActivity.this, "Enter email", Toast.LENGTH_SHORT).show();
+            return false;
+        }
+        if (TextUtils.isEmpty(password)) {
+            Toast.makeText(RegisterActivity.this, "Enter password", Toast.LENGTH_SHORT).show();
+            return false;
+        }
+        return true;
     }
 
     private void signUpUser(final String name, String email, String password) {
         mAuth.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
+                .addOnCompleteListener(this, task -> {
+                    if (task.isSuccessful()) {
+                        FirebaseUser user = mAuth.getCurrentUser();
+                        updateUserProfile(user, name);
+                    } else {
                         progressBar.setVisibility(View.GONE);
-                        if (task.isSuccessful()) {
-                            // Sign in success, update UI with the signed-in user's information
-                            FirebaseUser user = mAuth.getCurrentUser();
-
-                            if (user != null) {
-                                UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
-                                        .setDisplayName(name)
-                                        .build();
-
-                                user.updateProfile(profileUpdates)
-                                        .addOnCompleteListener(task1 -> {
-                                            if (task1.isSuccessful()) {
-                                                Log.d("RegisterActivity", "User profile updated.");
-                                                // Proceed to main activity or further setup
-                                                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                                                startActivity(intent);
-                                                finish();
-                                            }
-                                        });
-                            }
-                        } else {
-                            // If sign in fails, display a message to the user.
-                            Toast.makeText(RegisterActivity.this, "Authentication failed.",
-                                    Toast.LENGTH_SHORT).show();
-                        }
+                        Toast.makeText(RegisterActivity.this, "Authentication failed: " + task.getException().getMessage(),
+                                Toast.LENGTH_SHORT).show();
                     }
                 });
+    }
+
+    private void updateUserProfile(FirebaseUser user, String name) {
+        UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
+                .setDisplayName(name)
+                .build();
+
+        if (user != null) {
+            user.updateProfile(profileUpdates)
+                    .addOnCompleteListener(task -> {
+                        progressBar.setVisibility(View.GONE);
+                        if (task.isSuccessful()) {
+                            navigateToMain();
+                        } else {
+                            Toast.makeText(RegisterActivity.this, "Failed to update user profile.",
+                                    Toast.LENGTH_SHORT).show();
+                        }
+                    });
+        }
+    }
+
+    private void navigateToLogin() {
+        Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    private void navigateToMain() {
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+        finish();
     }
 }
