@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_p8"
+    tools:context=".ExploreFragment"
+    android:id="@+id/fragment_explore">
+
+
+
+        <ScrollView android:layout_marginTop="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/categories"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/exploreCard1"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_apple" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="@string/apple"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/exploreCard2"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:backgroundTint="@color/material_dynamic_neutral95"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_banana" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="@string/banana"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/exploreCard3"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_capsiccum" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="@string/capsiccum"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/exploreCard4"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_cotton" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="@string/cotton"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/exploreCard5"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_cowpea" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="@string/cowpea"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/exploreCard6"
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_cumin" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="@string/cumin"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <!-- Card container -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/exploreCard7"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_fenugreek" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="@string/fenugreek"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Guide Card -->
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/exploreCard8"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_margin="8dp"
+                            android:backgroundTint="@color/material_dynamic_neutral95"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:padding="10dp">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:contentDescription="@string/guide"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/_ginger" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:text="@string/ginger"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                                    android:textSize="16sp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+<!--                    &lt;!&ndash; Card container &ndash;&gt;-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="16dp">-->
+
+<!--                        &lt;!&ndash; Guide Card &ndash;&gt;-->
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--                            app:cardBackgroundColor="@color/white"-->
+<!--                            app:cardCornerRadius="16dp"-->
+<!--                            app:cardElevation="6dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:padding="10dp">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="100dp"-->
+<!--                                    android:layout_height="100dp"-->
+<!--                                    android:contentDescription="@string/guide"-->
+<!--                                    android:scaleType="centerCrop"-->
+<!--                                    android:src="@drawable/_grape" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="8dp"-->
+<!--                                    android:text="@string/grape"-->
+<!--                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                                    android:textSize="16sp" />-->
+<!--                            </LinearLayout>-->
+<!--                        </androidx.cardview.widget.CardView>-->
+
+<!--                        &lt;!&ndash; Guide Card &ndash;&gt;-->
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--                            app:cardBackgroundColor="@color/white"-->
+<!--                            app:cardCornerRadius="16dp"-->
+<!--                            app:cardElevation="6dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:padding="10dp">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="100dp"-->
+<!--                                    android:layout_height="100dp"-->
+<!--                                    android:contentDescription="@string/guide"-->
+<!--                                    android:scaleType="centerCrop"-->
+<!--                                    android:src="@drawable/_oats" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="8dp"-->
+<!--                                    android:text="@string/oats"-->
+<!--                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                                    android:textSize="16sp" />-->
+<!--                            </LinearLayout>-->
+<!--                        </androidx.cardview.widget.CardView>-->
+<!--                    </LinearLayout>-->
+<!--                    &lt;!&ndash; Card container &ndash;&gt;-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="16dp">-->
+
+<!--                        &lt;!&ndash; Guide Card &ndash;&gt;-->
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--                            app:cardBackgroundColor="@color/white"-->
+<!--                            app:cardCornerRadius="16dp"-->
+<!--                            app:cardElevation="6dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:padding="10dp">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="100dp"-->
+<!--                                    android:layout_height="100dp"-->
+<!--                                    android:contentDescription="@string/guide"-->
+<!--                                    android:scaleType="centerCrop"-->
+<!--                                    android:src="@drawable/_mango" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="8dp"-->
+<!--                                    android:text="@string/mango"-->
+<!--                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                                    android:textSize="16sp" />-->
+<!--                            </LinearLayout>-->
+<!--                        </androidx.cardview.widget.CardView>-->
+
+<!--                        &lt;!&ndash; Guide Card &ndash;&gt;-->
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--                            app:cardBackgroundColor="@color/white"-->
+<!--                            app:cardCornerRadius="16dp"-->
+<!--                            app:cardElevation="6dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:padding="10dp">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="100dp"-->
+<!--                                    android:layout_height="100dp"-->
+<!--                                    android:contentDescription="@string/guide"-->
+<!--                                    android:scaleType="centerCrop"-->
+<!--                                    android:src="@drawable/_melon" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="8dp"-->
+<!--                                    android:text="@string/melon"-->
+<!--                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                                    android:textSize="16sp" />-->
+<!--                            </LinearLayout>-->
+<!--                        </androidx.cardview.widget.CardView>-->
+<!--                    </LinearLayout>-->
+<!--                    &lt;!&ndash; Card container &ndash;&gt;-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="16dp">-->
+
+<!--                        &lt;!&ndash; Guide Card &ndash;&gt;-->
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--                            app:cardBackgroundColor="@color/white"-->
+<!--                            app:cardCornerRadius="16dp"-->
+<!--                            app:cardElevation="6dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:padding="10dp">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="100dp"-->
+<!--                                    android:layout_height="100dp"-->
+<!--                                    android:contentDescription="@string/guide"-->
+<!--                                    android:scaleType="centerCrop"-->
+<!--                                    android:src="@drawable/_millet" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="8dp"-->
+<!--                                    android:text="@string/millet"-->
+<!--                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                                    android:textSize="16sp" />-->
+<!--                            </LinearLayout>-->
+<!--                        </androidx.cardview.widget.CardView>-->
+
+<!--                        &lt;!&ndash; Guide Card &ndash;&gt;-->
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--                            app:cardBackgroundColor="@color/white"-->
+<!--                            app:cardCornerRadius="16dp"-->
+<!--                            app:cardElevation="6dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:padding="10dp">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="100dp"-->
+<!--                                    android:layout_height="100dp"-->
+<!--                                    android:contentDescription="@string/guide"-->
+<!--                                    android:scaleType="centerCrop"-->
+<!--                                    android:src="@drawable/_mustered" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="8dp"-->
+<!--                                    android:text="@string/mustered"-->
+<!--                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                                    android:textSize="16sp" />-->
+<!--                            </LinearLayout>-->
+<!--                        </androidx.cardview.widget.CardView>-->
+<!--                    </LinearLayout>-->
+<!--                    &lt;!&ndash; Card container &ndash;&gt;-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="16dp">-->
+
+<!--                        &lt;!&ndash; Guide Card &ndash;&gt;-->
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--                            app:cardBackgroundColor="@color/white"-->
+<!--                            app:cardCornerRadius="16dp"-->
+<!--                            app:cardElevation="6dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:padding="10dp">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="100dp"-->
+<!--                                    android:layout_height="100dp"-->
+<!--                                    android:contentDescription="@string/guide"-->
+<!--                                    android:scaleType="centerCrop"-->
+<!--                                    android:src="@drawable/_okra" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="8dp"-->
+<!--                                    android:text="@string/okra"-->
+<!--                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                                    android:textSize="16sp" />-->
+<!--                            </LinearLayout>-->
+<!--                        </androidx.cardview.widget.CardView>-->
+
+<!--                        &lt;!&ndash; Guide Card &ndash;&gt;-->
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--                            app:cardBackgroundColor="@color/white"-->
+<!--                            app:cardCornerRadius="16dp"-->
+<!--                            app:cardElevation="6dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:padding="10dp">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="100dp"-->
+<!--                                    android:layout_height="100dp"-->
+<!--                                    android:contentDescription="@string/guide"-->
+<!--                                    android:scaleType="centerCrop"-->
+<!--                                    android:src="@drawable/_papaya" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="8dp"-->
+<!--                                    android:text="@string/papaya"-->
+<!--                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                                    android:textSize="16sp" />-->
+<!--                            </LinearLayout>-->
+<!--                        </androidx.cardview.widget.CardView>-->
+<!--                    </LinearLayout>-->
+<!--                    &lt;!&ndash; Card container &ndash;&gt;-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="16dp">-->
+
+<!--                        &lt;!&ndash; Guide Card &ndash;&gt;-->
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--                            app:cardBackgroundColor="@color/white"-->
+<!--                            app:cardCornerRadius="16dp"-->
+<!--                            app:cardElevation="6dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:padding="10dp">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="100dp"-->
+<!--                                    android:layout_height="100dp"-->
+<!--                                    android:contentDescription="@string/guide"-->
+<!--                                    android:scaleType="centerCrop"-->
+<!--                                    android:src="@drawable/_pearl_millet" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="8dp"-->
+<!--                                    android:text="@string/pearl_millet"-->
+<!--                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                                    android:textSize="16sp" />-->
+<!--                            </LinearLayout>-->
+<!--                        </androidx.cardview.widget.CardView>-->
+
+<!--                        &lt;!&ndash; Guide Card &ndash;&gt;-->
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--                            app:cardBackgroundColor="@color/white"-->
+<!--                            app:cardCornerRadius="16dp"-->
+<!--                            app:cardElevation="6dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:padding="10dp">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="100dp"-->
+<!--                                    android:layout_height="100dp"-->
+<!--                                    android:contentDescription="@string/guide"-->
+<!--                                    android:scaleType="centerCrop"-->
+<!--                                    android:src="@drawable/_rice" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="8dp"-->
+<!--                                    android:text="@string/rice"-->
+<!--                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                                    android:textSize="16sp" />-->
+<!--                            </LinearLayout>-->
+<!--                        </androidx.cardview.widget.CardView>-->
+<!--                    </LinearLayout>-->
+<!--                    &lt;!&ndash; Card container &ndash;&gt;-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:padding="16dp">-->
+
+<!--                        &lt;!&ndash; Guide Card &ndash;&gt;-->
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--                            app:cardBackgroundColor="@color/white"-->
+<!--                            app:cardCornerRadius="16dp"-->
+<!--                            app:cardElevation="6dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:padding="10dp">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="100dp"-->
+<!--                                    android:layout_height="100dp"-->
+<!--                                    android:contentDescription="@string/guide"-->
+<!--                                    android:scaleType="centerCrop"-->
+<!--                                    android:src="@drawable/_soybeans" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="8dp"-->
+<!--                                    android:text="@string/soybeans"-->
+<!--                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                                    android:textSize="16sp" />-->
+<!--                            </LinearLayout>-->
+<!--                        </androidx.cardview.widget.CardView>-->
+
+<!--                        &lt;!&ndash; Guide Card &ndash;&gt;-->
+<!--                        <androidx.cardview.widget.CardView-->
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_margin="8dp"-->
+<!--                            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--                            app:cardBackgroundColor="@color/white"-->
+<!--                            app:cardCornerRadius="16dp"-->
+<!--                            app:cardElevation="6dp">-->
+
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:gravity="center_horizontal"-->
+<!--                                android:orientation="vertical"-->
+<!--                                android:padding="10dp">-->
+
+<!--                                <ImageView-->
+<!--                                    android:layout_width="100dp"-->
+<!--                                    android:layout_height="100dp"-->
+<!--                                    android:contentDescription="@string/guide"-->
+<!--                                    android:scaleType="centerCrop"-->
+<!--                                    android:src="@drawable/_sweetpotato" />-->
+
+<!--                                <TextView-->
+<!--                                    android:layout_width="wrap_content"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    android:layout_marginTop="8dp"-->
+<!--                                    android:text="@string/sweet_potato"-->
+<!--                                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"-->
+<!--                                    android:textSize="16sp" />-->
+<!--                            </LinearLayout>-->
+<!--                        </androidx.cardview.widget.CardView>-->
+<!--                    </LinearLayout>-->
+<!--                    &lt;!&ndash; Card container &ndash;&gt;-->
+<!--                    &lt;!&ndash; Card container &ndash;&gt;-->
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginStart="6dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="6dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/grey_background"-->
+<!--                android:backgroundTint="@color/material_dynamic_neutral60"-->
+<!--                android:elevation="4dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/searchEdt"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginStart="6dp"-->
+<!--                    android:layout_marginEnd="6dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="#00ffffff"-->
+<!--                    android:ems="10"-->
+<!--                    android:hint="@string/search"-->
+<!--                    android:inputType="text"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textColorHint="@color/white"-->
+<!--                    android:textSize="16sp" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/searchBtn"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginEnd="6dp"-->
+<!--                    app:srcCompat="@drawable/search_icon" />-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+</FrameLayout>

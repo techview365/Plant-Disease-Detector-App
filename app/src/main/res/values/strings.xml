@@ -1,0 +1,1024 @@
+<resources>
+    <string name="app_name">Plant Disease Detection App</string>
+    <string name="your_crops">your crops</string>
+    <string name="community">community</string>
+    <string name="dukaan">Dukan</string>
+    <string name="you">you</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="click_to_login">click to Login</string>
+    <string name="profile_image">profile Image</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="logout">logout</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="plant_disease_detection_app">Plant Disease Detection App</string>
+    <string name="fertilizer">Fertilizer</string>
+    <string name="pests_and_diseases">Pests and diseases</string>
+    <string name="cultivation_tips">Cultivation Tips</string>
+    <string name="pests_and_disease_alert">Pests and disease alert</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="_1_take_or_upload_a_picture">1) Take or upload a picture.</string>
+    <string name="_2_get_result">2) Get Result</string>
+    <string name="_3_get_diagnosis_report">3) Get diagnosis report</string>
+    <string name="take_plant_picture">Take Plant Picture</string>
+    <string name="upload_plant_picture">Upload Plant Picture</string>
+    <string name="crop">Crop</string>
+    <string name="explore">Explore</string>
+    <string name="profile">Profile</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="marathi">Marathi</string>
+    <string name="select_language">Select Language</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_login_with_your_information">Please login with your information</string>
+    <string name="login">Login</string>
+    <string name="plant_disease_detector">Plant Disease Detector</string>
+    <string name="please_register_with_your_information">Please register with your information</string>
+    <string name="register">Register</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="uploaded_image">Uploaded Images</string>
+    <string name="guide">Guide</string>
+    <string name="watering_guide">Watering guide</string>
+    <string name="sunlight_guide">Sunlight guide</string>
+    <string name="fertilizing_guide">Fertilizing guide</string>
+    <string name="soil_guide">Soil guide</string>
+    <string name="pest_guide">Pest guide</string>
+    <string name="humidity_guide">Humidity Guide</string>
+    <string name="harvesting_guide">Harvesting guide</string>
+    <string name="pruning_guide">Pruning guide</string>
+    <string name="apple_scab">Apple Scab</string>
+    <string name="cedar_apple_rust">Cedar Apple Rust</string>
+    <string name="powdery_mildew">Powdery Mildew</string>
+    <string name="wheat_leaf_rust">Wheat Leaf Rust</string>
+    <string name="agriscan">AgriScan</string>
+    <string name="get_experience_in_your_own_language">Get Experience In Your Own Language</string>
+    <string name="types_of_crops">Types of Crops</string>
+    <string name="food_plants_were_historically_the_first_to_be_harvested_and_cultivated_they_are_grown_fo_see_more">Food plants were historically the first to be harvested and cultivated. They are grown fo… see more</string>
+    <string name="story_of_seasons_a_wonderful_life_crop_growing_guide">Story of Seasons: A Wonderful Life - Crop Growing Guide</string>
+    <string name="here_s_a_helpful_guide_to_help_players_grow_their_crops_successfully_in_story_of_seasons_a_wonderful_life_see_more">Here\'s a helpful guide to help players grow their crops successfully in Story of Seasons: A Wonderful Life. … see more</string>
+    <string name="crop_production_and_management_early_man_s_food">Crop Production and Management - EARLY MAN’S FOOD</string>
+    <string name="early_man_was_primarily_a_hunter_and_a_flesh_eater_he_also_ate_fruits_and_seeds_he_did_not_cultivate_food_he_was_a_food_gatherer_see_more">Early man was primarily a hunter and a flesh-eater. He also ate fruits and seeds. He did not cultivate food. He was a food gatherer.... see more</string>
+    <string name="top_5_most_profitable_crops_in_india">Top 5 Most Profitable Crops in India</string>
+    <string name="agriculture_has_been_the_backbone_of_india_s_economy_for_centuries_providing_employment_to_a_large_portion_of_the_population_and_contributing_significantly_to_the_nation_s_gdp_see_more">Agriculture has been the backbone of India’s economy for centuries, providing employment to a large portion of the population and contributing significantly to the nation’s GDP.... see more</string>
+    <string name="need_for_weather_forecasts_for_agriculture">Need for Weather Forecasts for Agriculture</string>
+    <string name="weather_plays_an_important_role_in_agricultural_production_systems_through_its_influence_on_the_growth_development_and_yields_of_a_crop_incidence_of_pests_and_diseases_water_needs_and_fertilizer_requirements_in_terms_of_differences_in_nutrient_mobilization_due_see_more">Weather plays an important role in agricultural production systems through its influence on the growth, development and yields of a crop, incidence of pests and diseases, water needs and fertilizer requirements in terms of differences in nutrient mobilization due</string>
+    <string name="guides">Guides</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">VIEW ALL</string>
+    <string name="apple">Apple</string>
+    <string name="banana">Banana</string>
+    <string name="capsiccum">Capsiccum</string>
+    <string name="cotton">Cotton</string>
+    <string name="cowpea">Cowpea</string>
+    <string name="cumin">Cumin</string>
+    <string name="fenugreek">Fenugreek</string>
+    <string name="ginger">Ginger</string>
+    <string name="grape">Grape</string>
+    <string name="oats">Oats</string>
+    <string name="mango">Mango</string>
+    <string name="melon">Melon</string>
+    <string name="millet">Millet</string>
+    <string name="mustered">Mustered</string>
+    <string name="okra">Okra</string>
+    <string name="papaya">Papaya</string>
+    <string name="pearl_millet">Pearl Millet</string>
+    <string name="rice">Rice</string>
+    <string name="soybeans">Soybeans</string>
+    <string name="sweet_potato">Sweet Potato</string>
+    <string name="search">Search</string>
+    <string name="scan">Scan</string>
+    <string name="pests_amp_disease"><![CDATA[pests &amp; disease]]></string>
+    <string name="user">User</string>
+    <string name="my_post">My Post</string>
+    <string name="share">Share</string>
+    <string name="back_to_main_page">Back to Main page</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="notification">Notification</string>
+    <string name="about">About</string>
+    <string name="name">Name</string>
+
+    <string name="AppleTitle">Apple</string>
+    <string name="Apple_Description">
+        <![CDATA[
+        - Category: Fruit\n
+        - Family: Rosaceae\n
+        - Common Name: Apple\n
+        - Description: Deciduous tree with sweet fruit\n
+        - Watering: Regular, moderate\n
+        - Temperature: Cool to cold climate\n
+        - Sunlight: Full sun\n
+        - Soil: Well-drained, loamy soil\n
+        - Edible: Yes\n
+        - Fertilizer: Balanced\n
+        - Humidity: Moderate\n
+        - Misting: Occasionally
+        ]]>
+    </string>
+    <string name="description">Description</string>
+    <string name="explore_title_banana">Banana</string>
+    <string name="explore_description_banana">
+        <![CDATA[
+        - Category: Fruit\n
+        - Family: Musaceae\n
+        - Common Name: Banana\n
+        - Description: Herbaceous plant with large, elongated leaves and clusters of fruits.\n
+        - Watering: Regular watering, keep soil consistently moist.\n
+        - Temperature: Thrives in warm climates.\n
+        - Sunlight: Full sunlight.\n
+        - Soil: Well-draining soil.\n
+        - Edible: Yes.\n
+        - Fertilizer: Balanced fertilizer during growing season.\n
+        - Humidity: Prefers high humidity.\n
+        - Misting: Occasionally mist leaves
+        ]]>
+    </string>
+    <string name="explore_title_capsicum">Capsicum</string>
+    <string name="explore_description_capsicum">
+        <![CDATA[
+        - Family: Solanaceae\n
+        - Common Name: Bell Pepper, Chili Pepper\n
+        - Description: Capsicum species are flowering plants known for their fruit, which are used worldwide as vegetables, spices, or in medicine. The fruit can range from sweet to very hot, depending on the variety.\n
+        - Watering: Regular, consistent watering needed, ensuring the soil is moist but not waterlogged.\n
+        - Temperature: Prefers warm conditions, with temperatures between 70-85°F (21-29°C).\n
+        - Sunlight: Requires full sun for optimal growth and fruit production.\n
+        - Soil: Fertile, well-draining soil with a pH between 6.0 and 6.8.\n
+        - Edible: Yes, all parts of the fruit are edible and widely used in cooking for their flavor and heat.\n
+        - Fertilizer: Apply a balanced fertilizer every 4-6 weeks during the growing season.\n
+        - Humidity: Prefers moderate humidity but can tolerate a wide range.\n
+        - Misting: Not typically required unless grown in very dry conditions.\n
+        - Rotation: Rotate crops annually to prevent disease and maintain soil health.
+        ]]>
+    </string>
+
+    <string name="explore_title_cotton">Cotton</string>
+    <string name="explore_description_cotton">
+        <![CDATA[
+        - Category: Fiber Crop\n
+        - Family: Malvaceae\n
+        - Common Name: Cotton\n
+        - Description: Fibrous plants used for textile production.\n
+        - Watering: Moderate, avoid waterlogging.\n
+        - Temperature: Warm climate preferred.\n
+        - Sunlight: Full sun.\n
+        - Soil: Well-draining soil.\n
+        - Edible: No.\n
+        - Fertilizer: Balanced fertilizer during growing season.\n
+        - Humidity: Moderate.\n
+        - Misting: Not required.\n
+        - Rotation: Rotate crops to prevent disease
+        ]]>
+    </string>
+
+    <string name="explore_title_cowpea">Cowpea</string>
+    <string name="explore_description_cowpea">
+        <![CDATA[
+        - Category: Legume\n
+        - Family: Fabaceae\n
+        - Common Name: Cowpea or Black-eyed Pea\n
+        - Description: Edible beans, often with a black spot on the hilum.\n
+        - Watering: Moderate watering, well-drained soil.\n
+        - Temperature: Warm temperatures, drought-tolerant.\n
+        - Sunlight: Full sunlight.\n
+        - Soil: Well-drained soil.\n
+        - Edible: Yes, seeds are used for cooking.\n
+        - Fertilizer: Balanced fertilizer during the growing season.\n
+        - Humidity: Tolerates various humidity levels.\n
+        - Misting: Not required.\n
+        - Rotation: Rotate crops for soil health.
+        ]]>
+    </string>
+
+    <string name="explore_title_cumin">Cumin</string>
+    <string name="explore_description_cumin">
+        <![CDATA[
+        - Category: Herb\n
+        - Family: Apiaceae\n
+        - Common Name: Cumin\n
+        - Description: Small flowering herb with aromatic seeds.\n
+        - Watering: Allow soil to dry between watering.\n
+        - Temperature: Thrives in warm temperatures.\n
+        - Sunlight: Full sun.\n
+        - Soil: Well-draining soil.\n
+        - Edible: Seeds used as a spice.\n
+        - Fertilizer: Light feeding during the growing season.\n
+        - Humidity: Tolerates low to moderate humidity.\n
+        - Misting: Not required.\n
+        - Rotation: Not applicable; grown as an annual.
+        ]]>
+    </string>
+
+    <string name="explore_title_fenugreek">Fenugreek</string>
+    <string name="explore_description_fenugreek">
+        <![CDATA[
+        - Category: Herb\n
+        - Family: Fabaceae\n
+        - Common Name: Fenugreek\n
+        - Description: Annual herb with trifoliate leaves.\n
+        - Watering: Keep soil consistently moist.\n
+        - Temperature: Prefers cooler temperatures.\n
+        - Sunlight: Full sun to partial shade.\n
+        - Soil: Well-draining, loamy soil.\n
+        - Edible: Leaves and seeds used in cooking.\n
+        - Fertilizer: Balanced fertilizer during growth.\n
+        - Humidity: Moderate humidity preferred.\n
+        - Misting: Occasionally for humidity.\n
+        - Rotation: Not necessary for this annual herb.
+        ]]>
+    </string>
+
+    <string name="explore_title_ginger">Ginger</string>
+    <string name="explore_description_ginger">
+        <![CDATA[
+        - Category: Rhizome\n
+        - Family: Zingiberaceae\n
+        - Common Name: Ginger\n
+        - Description: Underground rhizome with a spicy flavor.\n
+        - Watering: Regular, keeping soil consistently moist.\n
+        - Temperature: Warm environment, around 75-85°F (24-29°C).\n
+        - Sunlight: Partial shade.\n
+        - Soil: Well-draining soil rich in organic matter.\n
+        - Edible: Yes\n
+        - Fertilizer: Balanced fertilizer during the growing season.\n
+        - Humidity: Prefers high humidity.
+        ]]>
+    </string>
+
+    <string name="community_title_1">Types of Crops</string>
+    <string name="community_description_1">
+        <![CDATA[
+        Food plants were historically the first to be harvested and cultivated.\n
+        They are grown for human consumption.\n
+        Food plants, particularly grains, are strategically important.\n
+        At the same time, farmers should keep in mind that while industrial food plant cultivation has many benefits, it can also have negative environmental consequences, such as greenhouse gas (GHG) emissions.\n
+        The following are the types of food crops:\n\n
+        Cereals: wheat, rice, barley, millet, oats, rye, sorghum, and others.\n
+        Grains are a rich source of starch, protein, dietary fiber, and nutrients and are an integral part of the daily diet.\n
+        In particular, maize, rice, and wheat provide the most calories and protein consumed in developing countries.\n\n
+        There’s a significant influence of crop type.\n\n
+        Fruits: apples and pears, citrus, stone fruits, tropical and exotic fruits, berries, and other types.\n
+        Fruits contain a lot of dietary fiber, vitamins, minerals, and antioxidants, such as flavonoids, which promote good health.\n\n
+        Vegetables are high in water content and low in calories.\n
+        They are also rich in dietary fiber, antioxidants, minerals, and vitamins (especially A and C).\n
+        There are several types of vegetable crops:\n\n
+        Spices fall into three types: the spices themselves (pepper, ginger), spice seeds, and herbs.\n
+        Spices are used sparingly to enhance food flavour and aroma.\n
+        They contain essential oils and alkaloids that aid appetite and digestion.
+        ]]>
+    </string>
+
+    <string name="community_title_2">Story of Seasons: A Wonderful Life - Crop Growing Guide</string>
+    <string name="community_description_2">
+        <![CDATA[
+        Here\'s a helpful guide to help players grow their crops successfully in Story of Seasons: A Wonderful Life.\n
+        Story of Seasons: A Wonderful Life is a modern take on the Harvest Moon original title.\n
+        Players will enjoy familiar gameplay after moving to their dad\'s old farm and building it up to a profitable business.\n
+        To expand the farm quickly, they must focus on earning gold, as everything important costs money.\n
+        One of the best ways to do this is to grow crops to sell raw or use in more valuable meals.\n\n
+        Growing crops takes time, effort, and dedication, as players will be responsible for planting, watering, and fertilizing daily if they want successful and high-quality produce.\n
+        The best way to do this is to learn what seasons crops are grown in and plan their seasonal harvest wisely based on this schedule.\n
+        They can also get machines and equipment to maximize their time spent and profits from crops.\n
+        So, here\'s a complete Story of Seasons: A Wonderful Life crop growing guide.\n\n
+        How to Get Crop Seeds\n
+        When players start, they\'ll have to spend money to make money, and getting crops is no exception.\n
+        When moving to Forgotten Valley, Vesta\'s Farm is the quickest way to get crop seeds.\n
+        Vesta lives across the bridge close to the path leaving town with Cecilia and Matthew.\n
+        Players can talk to any of them to purchase crop seeds and fertilizer.\n
+        Vesta\'s prices are low, but it does start adding up if players buy animals and facilities simultaneously.
+        ]]>
+    </string>
+
+    <string name="community_title_3">Crop Production and Management</string>
+    <string name="community_description_3">
+        <![CDATA[
+        EARLY MAN’S FOOD\n
+        Early man was primarily a hunter and a flesh-eater.\n
+        He also ate fruits and seeds.\n
+        He did not cultivate food.\n
+        He was a food gatherer.\n
+        He and his family had to go without food when the weather was rough.\n
+        This made him change his habit to domesticating cattle and growing of plants along his dwelling units.\n
+        This enabled him to make use of food available around his home in case he could not go for hunting.\n
+        Since man, animals, and plants require water all-round the year, people started settling near rivers, lakes, and ponds.\n
+        This was the beginning of food production by man.\n\n
+        AGRICULTURE AND FARMING\n
+        When man adopted plant eating along with flesh eating, he started collecting seeds.\n
+        The seeds were scattered, germinated, and grew.\n
+        The produce of the plants was used as food and the plant body was left as fodder for cattle.\n
+        With the increase in demand for food, man became aware of taking care of plants.\n
+        This was the beginning of agriculture.\n
+        The word agriculture has come from two Latin words, ager meaning field and culture meaning cultivation.\n
+        Agriculture or farming is the cultivation of soil.\n
+        It includes growing of plant crops and rearing of animals.\n\n
+        FOOD FROM PLANTS\n
+        Food from plants includes: Cereals, Pulses, Fruits, Vegetables.\n
+        We also use oils and beverages as part of our food.\n
+        The plants cultivated on a large scale specially for food are called food crops.\n\n
+        Cereals: The important cereals include Corn, Wheat, and Paddy.\n
+        Cereals provide us with Starch, Fibres, Minerals, Some vitamins, and Proteins.\n
+        These are crops grown in a particular season.\n\n
+        i) Kharif Crops\n
+        The seeds of these crops are sown in June/July.\n
+        The crops are harvested in September/October.\n
+        Examples: Sorghum, Sugarcane, Pearl millet, Pulses, oil seeds, etc.\n\n
+        ii) Rabi Crops\n
+        These are also known as Winter Crops.\n
+        The seeds of these crops are sown in October/November.\n
+        The crops are harvested in March/April.\n
+        Winter flowers and winter vegetables are grown.\n
+        Examples: Wheat, Barley, Pea, Oats, etc.\n\n
+        iii) Zayed Crops\n
+        These are also known as Summer Crops.\n
+        The seeds of these crops are sown in March/April.\n
+        Summer flowers and Summer vegetables are grown.\n
+        The crops are harvested in May/June.\n
+        Examples: Cucurbita, Lagenaria, Bitter Gourd, Melons, etc.\n\n
+        FOOD PRODUCTION AND FARM MANAGEMENT\n
+        India is primarily an agricultural country.\n
+        Water is one of the important requirements for growing crops.\n
+        For water, farmers mainly depend on rain.\n\n
+        Need for better Agricultural Practices\n
+        Monsoons may fail at times.\n
+        With the help of science and technology, arrangements must be made which should help the farmer with water all-round the year.\n
+        Also, more and better yields from fields must be achieved.\n
+        This is possible by adopting better agricultural practices and farm management.\n
+        Farming. The tasks performed by a Farmer for tilling a farm and for cultivation is called Farming.
+        ]]>
+    </string>
+
+    <string name="community_title_4">Top 5 Most Profitable Crops in India</string>
+    <string name="community_description_4">
+        <![CDATA[
+        Agriculture has been the backbone of India’s economy for centuries, providing employment to a large portion of the population and contributing significantly to the nation’s GDP.\n
+        With diverse climatic conditions and fertile land, India is blessed with the potential to cultivate a wide variety of crops.\n
+        However, not all crops are equally profitable.\n
+        We will explore the top 5 most profitable crops in India, taking into consideration factors like demand, market prices, and cultivation feasibility.\n\n
+        Basmati Rice\n
+        India is renowned for its aromatic and long-grain Basmati rice, which enjoys a global reputation for its quality and flavor.\n
+        Basmati rice commands a premium price in both domestic and international markets.\n
+        The demand for this rice variety continues to grow, especially in Middle Eastern and European countries.\n
+        Punjab, Haryana, and some parts of Uttar Pradesh are the primary regions for Basmati rice cultivation.\n
+        With proper farming techniques and market access, farmers can reap substantial profits from Basmati rice cultivation.\n\n
+        Saffron\n
+        Saffron, often referred to as the "red gold," is one of the most expensive spices in the world.\n
+        It is derived from the stigma of the Crocus sativus flower and has a strong demand in culinary and medicinal industries.\n
+        The high-altitude regions of Jammu and Kashmir, particularly Pampore, are known for saffron cultivation in India.\n
+        Due to its labor-intensive and delicate harvesting process, saffron commands a high price, making it a profitable crop for farmers in these regions.\n\n
+        Vanilla\n
+        Vanilla, once considered exotic, has gained popularity in the Indian market, especially in the food and beverage industry.\n
+        India\'s tropical climate, particularly in states like Kerala and Karnataka, is suitable for vanilla cultivation.\n
+        Vanilla beans are used in various food products, including ice cream, chocolates, and beverages.\n
+        With the right knowledge and techniques, vanilla farming can yield impressive profits for Indian farmers.\n\n
+        Medicinal Herbs\n
+        The global demand for medicinal herbs and plants has been steadily rising due to the increased interest in alternative medicine and herbal remedies.\n
+        India has a rich tradition of herbal medicine, and many medicinal plants like ashwagandha, turmeric, and amla (Indian gooseberry) are in high demand.\n
+        The cultivation of these herbs is not only profitable but also sustainable, as it contributes to the preservation of traditional knowledge and biodiversity.\n\n
+        Organic Vegetables\n
+        With the growing health-consciousness among consumers, there is a surge in demand for organic vegetables.\n
+        Organic farming practices, which avoid synthetic chemicals and pesticides, result in healthier produce that fetches higher prices in the market.\n
+        Farmers across India are gradually transitioning to organic farming, growing vegetables like tomatoes, bell peppers, and broccoli.\n
+        This trend not only benefits the environment but also leads to increased profitability for farmers who can tap into the organic market.
+        ]]>
+    </string>
+
+    <string name="community_title_5">Need for Weather Forecasts for Agriculture</string>
+    <string name="community_description_5">
+        <![CDATA[
+        Weather plays an important role in agricultural production systems through its influence on the growth, development and yields of a crop, incidence of pests and diseases, water needs and fertilizer requirements in terms of differences in nutrient mobilization due to water stresses and time lines and effectiveness of prophylactic and cultural operations on crops.\n
+        Weather aberrations may cause (i) physiological under performance by the crop plants, (ii) physical damage to crops, (iii) soil erosion and (iv)may render the agricultural inputs ineffective.\n
+        The quality of crop produce during movement from field to storage and transport to market depends on weather.\n
+        Bad weather may affect the quality of produce while lying in the fields/indoor storages or during transport and may adversely impact the viability and vigour of seeds and planting material during storage.\n\n
+        Some Unique Aspects of Agricultural Weather Forecasts\n
+        Weather forecasts for agriculture need to be distinct from general weather forecasts due to their applications for specialised operations/decisions.\n
+        Preparation of field for sowing and sowing of crop with adequate availability of seed zone soil moisture requires copious rains.\n
+        Rains that do not contribute to root zone soil moisture of standing crops are less effective and therefore need to be provided in quantitative terms.\n
+        The adequacy of rainfall, for example, needs to be indicated in conjunction with evaporative power of the atmosphere which in turn requires forecasts for other weather variables such as temperature, humidity, wind and sunshine.\n
+        While clear weather is required for sowing operations it must be preceded by antecedent seed zone soil moisture storage.\n
+        Thus, forecasts of clear weather following a wet spell are crucial.\n
+        Such forecasts of dry spells following a wet spell are also required for the initiation of disease control measures.\n
+        There are areas where frequent thunderstorm activity precedes the arrival of rains associated with well-defined weather systems.\n
+        In such cases the agronomic strategy should be to utilize pre-seasonal rains for land preparation and resort to dry sowings in anticipation of rain in the next few days.\n
+        In temperate regions frost can cause severe menace to agricultural productivity.\n
+        Frosts normally occur when the screen temperatures are 3-4 degrees Celsius above freezing temperature.\n
+        Appropriate indications for such temperatures need to be given in the forecasts meant for agriculture use.\n\n
+        Types of Weather forecasts\n
+        Weather forecasts for a given area are categorised based on their period of validity and whether these are deterministic or probabilistic.
+        ]]>
+    </string>
+
+    <!-- Titles for each guide -->
+    <string name="title_watering_guide">Watering Guide</string>
+    <string name="title_sunlight_guide">Sunlight Guide</string>
+    <string name="title_fertilizing_guide">Fertilizing Guide</string>
+    <string name="title_soil_guide">Soil Guide</string>
+    <string name="title_pest_guide">Pest Guide</string>
+    <string name="title_humidity_guide">Humidity Guide</string>
+    <string name="title_harvesting_guide">Harvesting Guide</string>
+    <string name="title_pruning_guide">Pruning Guide</string>
+
+    <!-- Descriptions for each guide -->
+    <string name="desc_watering_guide">
+        1. Understand the water needs: Different plants and crops have varying water requirements...\n\n
+        2. Check the soil moisture: Before watering, check the moisture level of the soil...\n\n
+        3. Water deeply: When you do water, make sure to water deeply and thoroughly. This encourages the roots to grow deeper and helps plants withstand dry periods.\n\n
+        4. Time of day: Water plants in the early morning or late afternoon when temperatures are cooler. This reduces water loss due to evaporation.\n\n
+        5. Avoid overwatering: Overwatering can lead to root rot and other issues. Make sure not to water too frequently or excessively.\n\n
+        6. Consider the weather: Adjust your watering schedule based on the weather conditions. If it has rained recently or if it\'s a humid day, you may not need to water as much.
+    </string>
+    <string name="desc_sunlight_guide">
+        1. Know the sunlight requirements: Different plants have different sunlight needs. Some thrive in full sun, while others prefer partial shade. Research the specific sunlight requirements of the plants you are growing.\n\n
+        2. Observe the sunlight patterns: Observe how the sunlight moves across your garden or growing area throughout the day. Take note of areas that receive direct sunlight, partial shade, or full shade.\n\n
+        3. Place plants strategically: Based on the sunlight patterns, place your plants in areas that match their sunlight requirements. Position sun-loving plants where they can receive maximum sunlight, while shade-loving plants should be placed in areas with partial shade or full shade.\n\n
+        4. Morning sun vs. afternoon sun: Morning sunlight is generally less intense than afternoon sunlight. If you live in a hot climate, consider providing some shade or protection during the hottest part of the day to prevent sunburn on sensitive plants.\n\n
+        5. Monitor plant response: Pay attention to how your plants respond to the sunlight they receive. If they appear to be wilting, scorched, or not growing properly, it could be a sign that they are not getting the right amount or intensity of sunlight.\n\n
+        6. Adjust as needed: If you notice any issues with your plants\' growth or health, consider adjusting their placement to provide more or less sunlight as required.
+    </string>
+    <string name="desc_fertilizing_guide">
+        1. Understand your plants\' needs: Different plants have different nutrient requirements. Research the specific fertilizing needs of the plants you are growing.\n\n
+        2. Choose the right fertilizer: Select a fertilizer that matches the nutrient needs of your plants. There are different types of fertilizers available, such as organic and synthetic options. Follow the instructions on the fertilizer packaging for proper usage.\n\n
+        3. Timing is important: Fertilize your plants at the right time. In general, it\'s best to fertilize during the growing season when plants are actively growing and can benefit from the nutrients.\n\n
+        4. Follow the recommended dosage: Use the recommended dosage of fertilizer as specified on the packaging. Over-fertilizing can harm your plants, so it\'s important to follow the instructions carefully.\n\n
+        5. Apply evenly: Distribute the fertilizer evenly around the base of the plants. Avoid getting the fertilizer directly on the leaves or stems, as it may cause damage.\n\n
+        6. Water after fertilizing: After applying the fertilizer, water your plants thoroughly. This helps to dissolve and distribute the nutrients into the soil, making them more accessible to the roots.\n\n
+        7. Monitor plant response: Keep an eye on how your plants respond to fertilization. If they show signs of nutrient deficiencies or excesses, adjust the fertilizing schedule or dosage accordingly.\n\n
+        Here are examples of organic and synthetic fertilizers:\n\n
+        1. Organic fertilizer:\n\n
+        - Compost: Made from decomposed organic matter like kitchen scraps, leaves, and grass clippings. It enriches the soil with nutrients and improves its structure.\n\n
+        - Manure: Animal waste, such as cow or chicken manure, is rich in nutrients and can be used as a natural fertilizer.\n\n
+        - Bone meal: Ground-up animal bones provide phosphorus and calcium to promote root development and overall plant growth.\n\n
+        2. Synthetic fertilizer:\n\n
+        - Nitrogen-based fertilizer: Examples include ammonium nitrate or urea. These fertilizers provide a quick boost of nitrogen, which is essential for leafy green growth.\n\n
+        - Phosphorus-based fertilizer: Phosphorus helps with root development and flower production. Examples include superphosphate or triple superphosphate.\n\n
+        - Potassium-based fertilizer: Potassium promotes overall plant health and disease resistance. Examples include potassium chloride or potassium sulfate.\n\n
+        Remember to use these fertilizers according to the instructions provided on their packaging and consider the specific needs of your plants. Happy gardening!
+    </string>
+    <string name="desc_soil_guide">
+        1. Soil type: Different plants have different soil preferences. Some prefer well-draining soil, while others thrive in clay or sandy soil. Research the specific soil requirements for the plants you want to grow.\n\n
+        2. pH level: Soil pH affects nutrient availability to plants. Most plants prefer a slightly acidic to neutral pH range of 6.0 to 7.0. Test your soil\'s pH and adjust it if needed using amendments like lime or sulfur.\n\n
+        3. Organic matter: Adding organic matter, such as compost or well-rotted manure, improves soil structure, fertility, and water-holding capacity. It also enhances beneficial microbial activity.\n\n
+        4. Nutrient balance: Ensure your soil has a balanced supply of essential nutrients like nitrogen, phosphorus, and potassium (NPK). Conduct a soil test to determine nutrient deficiencies and amend accordingly.\n\n
+        5. Drainage: Good drainage is crucial for healthy plant growth. Avoid waterlogged soil, as it can lead to root rot. If your soil retains too much water, consider adding organic matter or using raised beds.\n\n
+        6. Mulching: Apply a layer of organic mulch, such as straw or wood chips, around plants to conserve moisture, suppress weeds, and regulate soil temperature.\n\n
+        7. Crop rotation: Rotate crops each season to prevent the buildup of pests and diseases in the soil. This practice also helps maintain nutrient balance and soil health.\n\n
+        8. Watering: Water plants deeply and infrequently, allowing the soil to dry slightly between waterings. This encourages deeper root growth and reduces the risk of overwatering.\n\n
+        Remember, soil requirements can vary depending on the specific plants and crops you are growing. Happy gardening!
+    </string>
+    <string name="desc_pest_guide">
+        1. Identify pests: Learn to identify common pests that can affect your plants, such as aphids, caterpillars, snails, or fungal diseases like powdery mildew.\n\n
+        2. Regular inspection: Regularly inspect your plants for signs of pest damage, including chewed leaves, wilting, discoloration, or the presence of pests themselves.\n\n
+        3. Natural predators: Encourage beneficial insects like ladybugs, lacewings, or birds that feed on pests. Planting flowers or herbs that attract these predators can help control pest populations.\n\n
+        4. Companion planting: Some plants naturally repel pests or attract beneficial insects. For example, marigolds can deter aphids, and planting basil near tomatoes can help repel tomato hornworms.\n\n
+        5. Physical barriers: Use physical barriers like netting or row covers to protect plants from pests like birds, rabbits, or larger insects.\n\n
+        6. Organic sprays: If pest populations become problematic, consider using organic sprays like neem oil or insecticidal soap. Follow the instructions carefully and avoid spraying during hot or sunny periods.\n\n
+        7. Crop rotation: Rotate crops each season to disrupt pest life cycles and reduce the risk of pest buildup in the soil.\n\n
+        8. Proper sanitation: Remove and destroy any infected or infested plant material to prevent the spread of pests or diseases. Clean gardening tools regularly to avoid cross-contamination.\n\n
+        9. Water and fertilize properly: Avoid overwatering or over-fertilizing, as this can attract pests. Proper watering and fertilization practices promote healthy plant growth, making them less susceptible to pests.\n\n
+        10. Early intervention: Act promptly at the first sign of pest damage. The earlier you address the issue, the easier it is to control and minimize the damage.\n\n
+        Remember, pest control methods can vary depending on the specific pests and plants you are dealing with. Happy gardening and pest-free crops!
+    </string>
+    <string name="desc_humidity_guide">
+        1. Understand optimal humidity levels: Different plants have varying humidity preferences. Research the ideal humidity range for your specific plants or crops.\n\n
+        2. Monitor humidity levels: Use a hygrometer or a digital humidity monitor to keep track of the humidity in your growing area.\n\n
+        3. Increase humidity: If the humidity is too low for your plants, you can increase it by using methods like misting the leaves with water, placing a tray of water near the plants, or using a humidifier.\n\n
+        4. Decrease humidity: If the humidity is too high and causing issues like fungal diseases, you can decrease it by improving air circulation, using fans, or using a dehumidifier.\n\n
+        5. Proper watering: Overwatering can lead to high humidity levels, so make sure to water your plants appropriately based on their needs. Avoid letting water sit in trays or pots for extended periods.\n\n
+        6. Mulching: Applying a layer of organic mulch around the base of your plants can help regulate soil moisture and prevent excessive evaporation, which can affect humidity levels.\n\n
+        7. Ventilation: Ensure proper ventilation in your growing area to prevent stagnant air and promote air movement, which can help regulate humidity levels.\n\n
+        8. Time of day: Humidity levels tend to be higher during the night and early morning. Avoid watering your plants during these times to prevent excessive moisture buildup.\n\n
+        9. Location considerations: Consider the natural humidity levels in your region when selecting plants for your garden. Choose varieties that are well-suited to your local climate.\n\n
+        10. Regular monitoring: Continuously monitor the humidity levels and make adjustments as needed based on the specific requirements of your plants.\n\n
+        Remember, maintaining proper humidity levels is crucial for the overall health and growth of your plants. By providing the right humidity conditions, you can help prevent issues like wilting, fungal diseases, or stress-related problems. Happy growing!
+    </string>
+    <string name="desc_harvesting_guide">
+        1. Check for maturity: Determine the appropriate time for harvesting by checking for signs of maturity specific to each plant or crop. Look for factors like color, size, texture, and ripeness.\n\n
+        2. Harvest in the morning: For most plants, it\'s best to harvest in the morning when the temperatures are cooler. This helps preserve the flavor, texture, and nutritional value of the produce.\n\n
+        3. Use the right tools: Use appropriate tools like pruning shears, scissors, or a sharp knife to harvest your plants. Make clean cuts to minimize damage to the plant.\n\n
+        4. Handle with care: Handle harvested produce gently to avoid bruising or damaging the plants. This helps maintain the quality and appearance of the crops.\n\n
+        5. Remove any damaged or diseased parts: Inspect the harvested produce and remove any damaged, diseased, or rotten parts. This helps prevent the spread of diseases and ensures better quality.\n\n
+        6. Sort and clean: Sort the harvested crops based on size, color, or any other relevant criteria. Clean them gently to remove any dirt, debris, or pests.\n\n
+        7. Proper storage: Store the harvested crops in appropriate conditions to maintain their freshness and quality. Some crops require refrigeration, while others can be stored at room temperature. Follow specific storage recommendations for each type of plant or crop.\n\n
+        8. Label and organize: If you\'re harvesting multiple types of plants or crops, label and organize them properly to avoid confusion. This makes it easier to use or sell them later.\n\n
+        9. Enjoy the fruits of your labor: Once harvested, savor the delicious flavors and nutritious benefits of your homegrown produce. Share them with friends and family or use them in your favorite recipes.\n\n
+        Remember, the timing and techniques for harvesting can vary depending on the specific plant or crop you\'re growing. It\'s always a good idea to research and understand the requirements of each plant to ensure a successful harvest. Happy harvesting!
+    </string>
+    <string name="desc_pruning_guide">
+        1. Assess the plant: Before pruning, assess the overall health and shape of the plant. Identify any dead, damaged, or diseased branches or stems that need to be removed.\n\n
+        2. Choose the right time: Prune plants during their dormant season, typically in late winter or early spring before new growth begins. However, some plants may have specific pruning requirements, so it\'s essential to research the specific plant you\'re working with.\n\n
+        3. Use the proper tools: Use clean and sharp pruning tools, such as pruning shears, loppers, or a pruning saw, depending on the size of the branches or stems you\'re cutting. This ensures clean cuts and minimizes damage to the plant.\n\n
+        4. Remove dead or diseased branches: Start by removing any dead, damaged, or diseased branches. Cut them back to healthy tissue or to the main stem, making sure to sterilize your tools between cuts to prevent the spread of diseases.\n\n
+        5. Thin out overcrowded growth: Identify branches that are crossing, rubbing against each other, or overcrowding the plant\'s canopy. Carefully remove these branches to improve air circulation and allow more light to reach the inner parts of the plant.\n\n
+        6. Shape the plant: Prune to maintain the desired shape and size of the plant. Make cuts just above a bud or lateral branch to encourage new growth in the desired direction.\n\n
+        7. Consider flowering plants: If you\'re pruning flowering plants, be aware of their blooming habits. Some plants produce flowers on new growth, so pruning in early spring can promote more blooms. Others flower on old wood, so prune after they bloom.\n\n
+        8. Clean up and dispose of debris: Once you\'ve finished pruning, clean up any debris and dispose of it properly. This helps prevent the spread of diseases and pests.\n\n
+        9. Monitor and maintain: Regularly monitor your plants throughout the growing season and address any new growth issues or pruning needs as they arise.\n\n
+        Remember, different plants have different pruning requirements, so it\'s crucial to research and understand the specific needs of each plant before pruning. Happy pruning!
+    </string>
+
+    <!-- Apple Scab -->
+    <string name="title_apple_scab">Apple Scab</string>
+    <string name="desc_apple_scab">
+        <![CDATA[
+        Symptoms:\n
+        Yellow or chlorotic spots on leaves; dark olive green spots on leaves and fruit; may be a velvety growth on spots on undersides of leaves; twisting of leaves; distorted leaves; severely infected leaves turn yellow and drop from tree.\n\n
+        Comments:\n
+        Fungus overwinters on dead foliage on ground; spores dispersed by wind; high moisture encourages fungal growth.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Remove all leaves dropped from tree in the fall and compost to prevent any diseases surviving in debris; application of zinc and fertilizer grade urea in the Fall may be necessary to speed leaf drop, lime should then be added to fallen leaves; fungicide application may be necessary in areas where leaves remain wet for periods in excess of 9 hours; fungicides such as copper soaps and Bordeaux mixture should be applied if there is a chance of wet period as soon as leaf tips emerge.\n\n
+        Scientific Name: Venturia inaequalis.\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- Cedar Apple Rust -->
+    <string name="title_cedar_apple_rust">Cedar Apple Rust</string>
+    <string name="desc_cedar_apple_rust">
+        <![CDATA[
+        Symptoms:\n
+        Bright orange or yellow patches on top side of leaves surrounded by a red band and small black spots in the center; by mid-summer, cup-like structures called aecia form on the leaf undersides; these become covered in tubular structures from which spores are released.\n\n
+        Comments:\n
+        Fungus requires two hosts to complete lifecycle; forms galls on Eastern red cedar and spores are carried by wind to apple; use caution when planting apple close to red cedar.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Plant resistant varieties where possible; remove nearby red cedar; if growing susceptible varieties in proximity to red cedar follow a fungicide program.\n\n
+        Scientific name: Gymnosporangium juniper-virginianae.\n\n
+        Organic Control:\n
+        For organic control of apple cedar rust, consider using neem oil or copper-based fungicides. These are less harmful to the environment.\n\n
+        Chemical Controls:\n
+        Chemical controls may include synthetic fungicides like myclobutanil or triadimefon, but use them cautiously and follow label instructions to minimize environmental impact. Regularly pruning infected branches and promoting good air circulation can also help manage apple cedar rust.\n
+        ]]>
+    </string>
+
+    <!-- Downy Mildew -->
+    <string name="title_downy_mildew">Downy Mildew</string>
+    <string name="desc_downy_mildew">
+        <![CDATA[
+        Symptoms:\n
+        Downy mildew in grapes appears as yellow or pale green spots on the upper surface of leaves, accompanied by a whitish-gray fungal growth on the underside. Infected leaves may curl or twist, and severe infections can lead to defoliation. Lesions may also develop on grape clusters, causing fruit rot and reduced yield.\n\n
+        Comments:\n
+        Fungal spores overwinter in buds; spread by wind.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Prune out infected shoots while dormant in early spring; apply sprays at pink bud stage to reduce build up; organic treatments include application of lime and sulfur.\n\n
+        Scientific Name: Plasmopara viticola.\n\n
+        Organic Control:\n
+        1. Cultural Practices: Rotate crops, space plants well, and choose resistant varieties.\n
+        2. Sanitation: Remove infected plant material and control weeds.\n
+        3. Environmental Management: Reduce humidity and improve airflow.\n
+        4. Biocontrol: Use beneficial microorganisms and microbial antagonists.\n
+        5. Organic Fungicides: Apply copper-based or sulfur fungicides.\n
+        6. Natural Extracts and Oils: Neem oil and garlic extracts can help.\n
+        7. Compost Teas: Use compost teas to enhance soil health.\n\n
+        Chemical Control:\n
+        1. Copper-Based Fungicides: Disrupt fungal cell membranes.\n
+        2. Systemic Fungicides: Absorbed by plants to target pathogens internally.\n
+        3. Protectant Fungicides: Form a protective barrier on plant surfaces.\n
+        4. Strobilurin Fungicides: Inhibit fungal respiration.\n
+        5. Triazole Fungicides: Disrupt fungal cell membrane integrity.\n
+        ]]>
+    </string>
+
+    <!-- Fire Blight -->
+    <string name="title_fire_blight">Fire Blight</string>
+    <string name="desc_fire_blight">
+        <![CDATA[
+        Symptoms:\n
+        Fire blight manifests primarily in the form of wilting, blackened leaves on infected branches, giving the appearance of scorched or burnt foliage. The affected leaves often remain attached to the tree, creating a striking visual contrast with healthy foliage. Additionally, infected blossoms typically turn brown and may exhibit bacterial ooze, emitting a foul odor.\n\n
+        Comments:\n
+        Bacterium overwinters in bark or cankers; spread by pollinating insects and by rain splash.\n\n
+        Cause: Bacterium\n\n
+        Recommendations:\n
+        1. Immediately prune infected shoots at least 8-12 inches below visible symptoms and sterilize pruning tools between cuts.\n
+        2. Dispose of prunings away from the orchard and consider applying bactericides if infection is severe, following label instructions.\n
+        3. Monitor weather conditions and take proactive measures to prevent further spread, consulting with agricultural experts if needed.\n\n
+        Scientific Name: Erwinia amylovora.\n\n
+        Organic Control:\n
+        1. Use organic bactericides containing copper or streptomycin during bloom, adhering to organic standards and regulations.\n
+        2. Implement cultural practices like pruning infected shoots, promoting orchard sanitation, and applying compost or organic mulch to improve soil health.\n
+        3. Integrate biological control methods such as antagonistic bacteria or phage therapy, alongside fostering biodiversity to enhance natural disease suppression.\n\n
+        Chemical Control:\n
+        1. Streptomycin: Apply at 100% bloom and repeat if necessary, following label instructions (e.g., streptomycin sulfate 17% solution).\n
+        2. Copper-based bactericides: Use at bud break and throughout bloom, following label guidelines (e.g., copper hydroxide 50% WP).\n
+        3. Oxytetracycline: Apply during bloom at recommended rates (e.g., oxytetracycline hydrochloride 24% powder).\n
+        ]]>
+    </string>
+
+    <!-- Powdery Mildew -->
+    <string name="title_powdery_mildew">Powdery Mildew</string>
+    <string name="desc_powdery_mildew">
+        <![CDATA[
+        Symptoms:\n
+        White powdery growth on the upper surfaces of leaves and stems; infected areas stunted and distorted.\n\n
+        Comments:\n
+        Disease emergence favored by dry weather and high relative humidity.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Plant in sites with good air circulation and sun exposure; do not overcrowd plants; sanitize equipment regularly.\n\n
+        Scientific name: Podosphaera leocotricha.\n\n
+        Organic Control:\n
+        Foliar sprays based on sulfur, neem oil, kaolin or ascorbic acid can prevent severe infection.\n\n
+        Chemical Control:\n
+        • Tebuconazole 50.0% WG\n
+        • Trifloxystrobin 25.0% WG\n
+        ]]>
+    </string>
+
+    <!-- Leaf Scorch -->
+    <string name="title_leaf_scorch">Leaf Scorch (Fungus)</string>
+    <string name="desc_leaf_scorch">
+        <![CDATA[
+        Symptoms:\n
+        Irregular dark purple or brown blotches on upper leaf surface which may coalesce to produce large purplish brown patches; tissue between blotches may turn purple or red; lesions may also develop on flowers and fruits; affected petals may wither and drop from plant; lesions may girdle peduncles causing death of fruit.\n\n
+        Comments:\n
+        The disease tends to appear when plant leaves stay wet for a long time.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Choose plant types that naturally fight off diseases; replace plants regularly; grow them in sunny areas with good air flow and drainage; trim away all plant leaves during rainy seasons; spray regularly.\n\n
+        Scientific name: Diplocarpon earliana.\n\n
+        Organic Control:\n
+        Apply a suitable compost tea or copper fungicide before symptoms appear; spray regularly.\n\n
+        Chemical Control:\n
+        Apply a preventative fungicide to protect plants from future infection; prune all affected areas.\n
+        ]]>
+    </string>
+
+
+
+    <!-- Strawberry Anthracnose -->
+    <string name="title_strawberry_anthracnose">Strawberry Anthracnose</string>
+    <string name="desc_strawberry_anthracnose">
+        <![CDATA[
+        Symptoms:\n
+        Strawberry anthracnose causes dark, sunken lesions on fruit, stems, and leaves. Fruit lesions may have a concentric ring pattern and can lead to significant yield loss. Infected leaves show small, water-soaked spots that expand and turn brown.\n\n
+        Comments:\n
+        The fungus survives in plant debris and can be spread by rain splash, irrigation, and tools. Warm, wet conditions favor disease development.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Use disease-free planting material, practice crop rotation, and ensure proper field sanitation. Apply fungicides as per guidelines during the growing season to protect against infections.\n\n
+        Scientific Name: Colletotrichum spp.\n\n
+        Organic Control:\n
+        Use resistant strawberry varieties, ensure proper spacing for air circulation, and apply organic fungicides like copper-based sprays.\n\n
+        Chemical Control:\n
+        Chemical fungicides such as:\n
+        • Captan\n
+        • Thiophanate-methyl\n
+        • Azoxystrobin\n
+        • Pyraclostrobin\n
+        Apply as per the recommended schedule and label instructions to manage the disease effectively.\n
+        ]]>
+    </string>
+
+    <!-- pestsCard8 -->
+    <string name="title_cercospora_leaf_spot">Cercospora Leaf Spot</string>
+    <string name="desc_cercospora_leaf_spot">
+        <![CDATA[
+        Symptoms:\n
+        Small necrotic spots with chlorotic halos on leaves which expand to rectangular lesions 1-6 cm in length and 2-4 mm wide; as the lesions mature they turn tan in color and finally gray; lesions have sharp, parallel edges and are opaque; disease can develop quickly causing complete blighting of leaves and plant death.\n\n
+        Comments:\n
+        Disease emergence is favored in areas where a corn crop is followed by more corn with no rotation; severity and incidence of disease is likely due to continuous corn culture with minimum tillage and the use of susceptible hybrids in the midwestern corn belt of the USA; prolonged periods of foggy or cloudy weather can cause severe Cercospora epidemics.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Plant corn hybrids with resistance to the disease; crop rotation and plowing debris into soil may reduce levels of inoculum in the soil but may not provide control in areas where the disease is prevalent; foliar fungicides may be economically viable for some high-yielding susceptible hybrids.\n\n
+        Scientific Name: Cercospora zeae-maydis\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard9 -->
+    <string name="title_corn_common_rust">Corn Common Rust</string>
+    <string name="desc_corn_common_rust">
+        <![CDATA[
+        Symptoms:\n
+        Oval or elongated cinnamon brown pustules on upper and lower surfaces of leaves; pustules rupture and release powdery red spores; pustules turn dark brown-black as they mature and release dark brown powdery spores; if infection is severe, pustules may appear on tassels and ears and leaves may begin to yellow; in partially resistant corn hybrids, symptoms appear as chlorotic or necrotic flecks on the leaves which release little or no spore.\n\n
+        Comments:\n
+        Disease is spread by wind-borne spores; some of the most popularly grown sweet corn varieties have little or no resistance to the disease.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        The most effective method of controlling the disease is to plant resistant hybrids; application of appropriate fungicides may provide some degree on control and reduce disease severity; fungicides are most effective when the amount of secondary inoculum is still low, generally when plants only have a few rust pustules per leaf.\n\n
+        Scientific Name: Puccinia sorghi\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard10 -->
+    <string name="title_northern_leaf_blight">Northern Leaf Blight</string>
+    <string name="desc_northern_leaf_blight">
+        <![CDATA[
+        Symptoms:\n
+        In the beginning, we will notice elliptical gray-green lesions on leaves. As the disease process progresses, these lesions become pale gray to tan. Later stages the lesions looks dirty due to dark gray spores particularly under lower leaf surface. The disease can be easily identified in the field due to its long, narrow lesions which are unrestricted by veins.\n\n
+        Comments:\n
+        The disease mainly spreads through rain splash and wind.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Follow proper tillage to reduce fungus inoculum from crop debris. Follow crop rotation with non-host crop. Grow available resistant varieties. In severe cases of disease incidence, apply suitable fungicide.\n\n
+        Scientific Name: Exserohilum turcicum\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard11 -->
+    <string name="title_grape_black_rot">Grape Black Rot</string>
+    <string name="desc_grape_black_rot">
+        <![CDATA[
+        Symptoms:\n
+        Brown lesions on the leaves that develop black dots (pycnidia); grapes have light spots that eventually form pycnidia; grapes harden and turn black, while still remaining on the vine.\n\n
+        Comments:\n
+        Disease favors rainy weather; spores may ooze out during rain.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Remove all mummified fruit from vines during dormant pruning; cultivate soil during bud break to bury mummies and reduce inoculant; application of appropriate fungicides can help control the disease.\n\n
+        Scientific Name: Guignardia bidwellii\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard12 -->
+    <string name="title_esca">Esca (Black Measles or Spanish Measles)</string>
+    <string name="desc_esca">
+        <![CDATA[
+        Symptoms:\n
+        Symptom appears on leaves, trunk, canes and berries. On leaves we will see intervenaial striping looks like tiger strips. White cultivars shows chlorotic and necrotic strips whereas red cultivars shows red areas and necrotic strips. On berries we will see superficial spots and later may coalesce making berries appear black. Trunk/arm/cordons shows dark brown black vascular streaking and oozes dark sap when we cut trunk. Some time this measles in associate with numerous secondary wood rotting fungi which decorate the vineyard completely.\n\n
+        Comments:\n
+        The leaf and berry symptoms may occur together in single cane or may show symptom on only one part. The severe infestation of measles kill grapevine in a single year which is commonly called apoplexy. The symptoms are common in 5 to 7 year old vineyard. The prune wounds help in pathogen entrance and establishment.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Till date there is no effective method to control this disease. Remove the infected berries, leaves and trunk and destroy them. Protect the prune wounds to minimize fungal infection using wound sealant (5% boric acid in acrylic paint) or essential oil or suitable fungicides.\n\n
+        Scientific Name: Phaeomoniella aleophilum\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard13 -->
+    <string name="title_leaf_blight_grape">Grape Leaf Blight</string>
+    <string name="desc_leaf_blight_grape">
+        <![CDATA[
+        Symptoms:\n
+        On leaf surface, we will see lesions which are irregularly shaped (2 to 25 mm in diameter). Initially, lesions are dull red to brown in color turn black later. If the disease is severe, these lesions may coalesce. On berries, we can see symptoms similar to black rot but the entire clusters will collapse.\n\n
+        Comments:\n
+        Common in tropical and subtropical grapes. The disease appears late in the season. Cynthiana and Cabernet Sauvignon are susceptible to this pathogen.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Fungicides sprayed for other diseases in the season may help to reduce this disease.\n\n
+        Scientific Name: Pseudocercospora vitis\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard14 -->
+    <string name="title_huanglongbing_orange">Orange Huanglongbing</string>
+    <string name="desc_huanglongbing_orange">
+        <![CDATA[
+        Symptoms:\n
+        Leaf symptoms of citrus greening include yellowing of one limb or one area of canopy, yellowing of leaf veins; blotchy mottling and/or green islands (spots) surrounded by completely yellow leaf tissue; twig and limbs begin to die back; fruits may drop prematurely and are often misshapen and lopsided; fruit has a bitter, salty taste.\n\n
+        Comments:\n
+        Disease emergence is favored by warm, wet conditions; the pathogen can enter a field on seed and transplants and can be spread within a field by wind-driven rain, clipping plants, and aerosols.\n\n
+        Cause: Bacterium\n\n
+        Recommendations:\n
+        Cultural control: Once a tree becomes infected with HLB, it cannot be cured. Control is therefore reliant on preventing the disease from occurring in the first place and this is achieved through strict quarantining to prevent the introduction of citrus psyllids to areas that are currently free of the pest. Areas that are subject to quarantine have restrictions placed on the movement of citrus plants, fruit, equipment, and items made from citrus. Infected trees should be removed as quickly as possible from plantations and destroyed. Identification of infected trees should be achieved through several surveys to ensure that infected trees which are not yet showing symptoms are identified. In Florida, the recommendation is to scout groves at least 4 times a year for disease symptoms.\n\n
+        Scientific Name: Candidatus Liberibacter asiaticus\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard15 -->
+    <string name="title_peach_bacterial_spot">Peach Bacterial Spot</string>
+    <string name="desc_peach_bacterial_spot">
+        <![CDATA[
+        Symptoms:\n
+        Water soaked, angular gray lesions on the underside of the leaves which turn purple and necrotic in the center and cause a shot hole appearance if the lesion center drops out; if lesions are present in high numbers on leaves they may become chlorotic and drop from tree; cankers develop on twigs either as raised blisters or as a dark area surrounding a bud that fails to open; in years of severe infection, the entire fruit crop may be lost; lesions on fruit begin as small brown, water-soaked lesions which may exude gum.\n\n
+        Comments:\n
+        Periods of frequent rainfall during late bloom and early petal drop increase the likelihood of fruit and leaf infection; infection is rare during hot, dry weather.\n\n
+        Cause: Bacterium\n\n
+        Recommendations:\n
+        Avoid planting susceptible peach varieties in areas where disease is known; once the disease is visible it can be difficult to control, protective copper applications in the Fall prior to leaf drop and/or application in the early growing season may help prevent the disease; care should be taken as peach trees are very sensitive to copper\n\n
+        Scientific Name: Xanthomonas campestris\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard16 -->
+    <string name="title_bell_bacterial_spot">Bacterial Spot</string>
+    <string name="desc_bell_bacterial_spot">
+        <![CDATA[
+        Symptoms:\n
+        Water-soaked lesions that dry out and turn brown forming on the underside of the leaves; raised brown cankers on stems; cracked brown lesions on fruit.\n\n
+        Comments:\n
+        Disease emergence favored by warm, wet conditions; the pathogen can enter a field on seed and transplants and can be spread within a field by wind-driven rain, clipping plants, and aerosols.\n\n
+        Cause: Bacterium\n\n
+        Recommendations:\n
+        Use disease-free planting material; remove and destroy all crop debris after harvest, or plow material deeply under the soil.\n\n
+        Scientific Name: Xanthomonas campestris\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard17 -->
+    <string name="title_potato_early_blight">Early Blight</string>
+    <string name="desc_potato_early_blight">
+        <![CDATA[
+        Symptoms:\n
+        Dark lesions with yellow border which may form concentric rings of raised and sunken tissue on the leaves and stems; lesions initially circular but become angular; leaves become necrotic but remain attached to the plant; dark, dry lesions on tubers with leathery or corky texture and watery yellow-green margins.\n\n
+        Comments:\n
+        Disease emergence favors cycles of wet and dry conditions with periods of high humidity and leaf wetness.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Application of appropriate protective fungicide can reduce severity of foliar symptoms; reduce stress to plants by fertilizing and watering adequately; plant late varieties which are less susceptible to disease; store tubers in cool environment.\n\n
+        Scientific Name: Alternaria solani\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard18 -->
+    <string name="title_potato_late_blight">Late Blight</string>
+    <string name="desc_potato_late_blight">
+        <![CDATA[
+        Symptoms:\n
+        Irregularly shaped spreading brown lesions on leaves with distinctive white fluffy sporulation at lesion margins on the underside of the leaf in wet conditions. In dry conditions, the lesions dry up and go dark brown with collapsed tissue; water-soaked dark green to brown lesions on stems also with characteristic white sporulation; later in infection leaves and petioles completely rotted; severely affected plants may have a slightly sweet distinctive odor; red-brown firm lesions on tubers extending several centimeters into tissue; lesions may be slightly sunken in appearance and often lead to secondary bacterial rots.\n\n
+        Comments:\n
+        The pathogen can survive for several months to years in the soil; emergence of disease favored by moist, cool conditions; major cause of disease spread is infected tubers.\n\n
+        Cause: Oomycete\n\n
+        Recommendations:\n
+        Control depends on a multifaceted approach with the importance of certain practices changing based on geographic location: destroy infected tubers; destroy any volunteer plants; application of appropriate fungicide to potato hills at emergence; time watering to reduce periods of leaf wetness e.g. water early to allow the plant to dry off during the day; plant resistant varieties; apply appropriate protective fungicide if disease is forecast in the area.\n\n
+        Scientific Name: Phytophthora infestans\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard19 -->
+    <string name="title_tomato_leaf_mold">Leaf Mold</string>
+    <string name="desc_tomato_leaf_mold">
+        <![CDATA[
+        Symptoms:\n
+        The older leaves exhibit pale greenish to yellow spots (without distinguishable margins) on the upper surface. Whereas the lower portion of these spots exhibit green to brown velvety fungal growth. As the disease progresses, the spots may coalesce and appear brown. The infected leaves become withered and die but stay attached to the plant. The fungus also infects flowers and fruits. The affected flowers become black and drop off. The affected fruit initially shows smooth black irregular areas on the stem end but later it becomes sunken, leathery, and dry.\n\n
+        Comments:\n
+        The disease is favored by high relative humidity. Also a common disease in greenhouse tomato crops.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Grow available resistant varieties. Avoid leaf wetting and overhead application of water. Follow proper spacing to provide good air circulation around the plants. Remove the infected plant debris and burn them. If the disease is severe, spray suitable fungicide.\n\n
+        Scientific Name: Passalora fulva\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard20 -->
+    <string name="title_septoria_leaf_spot">Septoria Leaf Spot</string>
+    <string name="desc_septoria_leaf_spot">
+        <![CDATA[
+        Symptoms:\n
+        Symptoms may occur at any stage of tomato development and begin as small, water-soaked spots or circular grayish-white spots on the underside of older leaves; spots have a grayish center and a dark margin and they may coalesce; fungal fruiting bodies are visible as tiny black specks in the center of spot; spots may also appear on stems, fruit calyxes, and flowers.\n\n
+        Comments:\n
+        Spread by water splash; fungus overwinters in plant debris.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Ensure all tomato crop debris is removed and destroyed in Fall or plowed deep into the soil; plant only disease-free material; avoid overhead irrigation; stake plants to increase air circulation through the foliage; apply appropriate fungicide if necessary.\n\n
+        Scientific Name: Septoria lycopersici\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard21 -->
+    <string name="title_tomato_target_spot">Target Spot</string>
+    <string name="desc_tomato_target_spot">
+        <![CDATA[
+        Symptoms:\n
+        The fungus infects all parts of the plant. Infected leaves show small, pinpoint, water-soaked spots initially. As the disease progresses, the spots enlarge to become necrotic lesions with conspicuous concentric circles, dark margins, and light brown centers. Whereas the fruits exhibit brown, slightly sunken flecks in the beginning but later the lesions become large pitted appearance.\n\n
+        Comments:\n
+        The fungus infects all parts of the plant. Infected leaves show small, pinpoint, water-soaked spots initially. As the disease progresses, the spots enlarge to become necrotic lesions with conspicuous concentric circles, dark margins, and light brown centers. Whereas the fruits exhibit brown, slightly sunken flecks in the beginning but later the lesions become large pitted appearance.\n\n
+        Cause: Fungus\n\n
+        Recommendations:\n
+        Remove the plant debris and burn them. Avoid over-application of nitrogen fertilizer. If the disease is severe, spray suitable fungicides.\n\n
+        Scientific Name: Corynespora cassiicola\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+
+    <!-- pestsCard22 -->
+    <string name="title_tomato_mosaic_virus">Tomato Mosaic Virus</string>
+    <string name="desc_tomato_mosaic_virus">
+        <![CDATA[
+        Symptoms:\n
+        Symptoms can occur at any growth stage and any part of the plant can be affected; infected leaves generally exhibit a dark green mottling or mosaic; some strains of the virus can cause yellow mottling on the leaves; young leaves may be stunted or distorted; severely infected leaves may have raised green areas; fruit yields are reduced in infected plants; green fruit may have yellow blotches or necrotic spots; dark necrotic streaks may appear on the stems, petioles, leaves, and fruit.\n\n
+        Comments:\n
+        ToMV is a closely related strain of Tobacco mosaic virus (TMV), it enters fields via infected weeds, peppers, or potato plants; the virus may also be transmitted to tomato fields by grasshoppers, small mammals, and birds.\n\n
+        Cause: Virus\n\n
+        Recommendations:\n
+        Plant varieties that are resistant to the virus; heat treating seeds at 70°C (158°F) for 4 days or at 82–85°C (179.6–185°F) for 24 hours will help to eliminate any virus particles on the surface of the seeds; soaking seed for 15 min in 100 g/l of tri-sodium phosphate solution (TSP) can also eliminate virus particles - seeds should be rinsed thoroughly and laid out to dry after this treatment; if the virus is confirmed in the field, infected plants should be removed and destroyed to limit further spread; plant tomato on a 2-year rotation, avoiding susceptible crops such as peppers, eggplant, cucurbits, and tobacco; disinfect all equipment when moving from infected areas of the field.\n\n
+        Scientific Name: Tomato mosaic virus (ToMV)\n\n
+        Organic Control:\n
+        If disease levels were high the previous season, liquid copper fungicides can be sprayed to impede the fungal growth on the tree during the winter season. Sulfur sprays are only partially effective against apple scab. However, solutions containing sulfur and pyrethrins are available for organic control of the disease during the growing season.\n\n
+        Chemical Control:\n
+        • Propineb 70.0% WP\n
+        • Mancozeb 75.0% WP\n
+        • Zineb 75.0% WP\n
+        • Myclobutanil 10.0% WP\n
+        ]]>
+    </string>
+    <string name="downy_mildew">Downy Mildew</string>
+    <string name="fire_blight">Fire Blight</string>
+    <string name="leaf_scorch">Leaf Scorch</string>
+    <string name="strawberry_anthracnose">Strawberry anthracnose</string>
+    <string name="cercospora_leaf_spot">Cercospora Leaf Spot</string>
+    <string name="corn_common_rust">Corn Common Rust</string>
+    <string name="northern_leaf_blight">Northern Leaf Blight</string>
+    <string name="grape_black_rot">Grape Black Rot</string>
+    <string name="esca">Esca</string>
+    <string name="grape_leaf_blight">Grape Leaf Blight</string>
+    <string name="huanglongbing">Huanglongbing</string>
+    <string name="peach_bacterial_spot">Peach Bacterial Spot</string>
+    <string name="bacterial_spot">Bacterial Spot</string>
+    <string name="early_blight">Early Blight</string>
+    <string name="late_blight">Late Blight</string>
+    <string name="leaf_mold">Leaf Mold</string>
+    <string name="septoria_leaf_spot">Septoria Leaf Spot</string>
+    <string name="target_spot">Target Spot</string>
+    <string name="mosaic_virus">Mosaic Virus</string>
+</resources>
